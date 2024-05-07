@@ -42,6 +42,7 @@ Learning Canonical Shape Space for Category-Level 6D Object Pose and Size Estima
 
 
 ## Unseen
+<details>
 <summary>CAD Model-Based</summary>
 
 #### 2019
@@ -93,6 +94,8 @@ FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects [[Paper
 Object Pose Estimation via the Aggregation of Diffusion Features [[Paper]](https://arxiv.org/pdf/2403.18791) [[Code]](https://github.com/Tianfu18/diff-feats-pose)
 
 GigaPose: Fast and Robust Novel Object Pose Estimation via One Correspondence [[Paper]](https://arxiv.org/pdf/2311.14155) [[Code]](https://github.com/nv-nguyen/gigaPose)
+
+</details>
 
 ## Applications
 ### Robotic Manipulation
