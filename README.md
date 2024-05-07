@@ -12,7 +12,7 @@ Jin Zeng, [Xingyu Liu](https://lliu-xingyu.github.io/), [Hossein Rahmani](https:
 
 ## Introduction
 
-This is the official repository of [''Deep Learning-Based Object Pose Estimation: A Comprehensive Survey''](https://arxiv.org/pdf/2202.02980.pdf). Specifically, we first introduce the [[datasets]](#datasets) used for this task. Then, we review the [[instance-level]](#instance-level), [[category-level]](#category-level), and [[unseen]](#unseen) methods, respectively. Next, we review the common [[applications]](#applications) of object pose estimation. Finally, we summarize this article and provide an outlook on future research directions based on the challenges in the field. The taxonomy of this survey is shown as follows
+This is the official repository of [''Deep Learning-Based Object Pose Estimation: A Comprehensive Survey''](https://arxiv.org/pdf/2202.02980.pdf). Specifically, we first introduce the [[datasets]](#datasets) used for object pose estimation. Then, we review the [[instance-level]](#instance-level), [[category-level]](#category-level), and [[unseen]](#unseen) methods, respectively. Finally, we summarize the common [[applications]](#applications) of this task. The taxonomy of this survey is shown as follows
 <p align="center"> <img src="./resources/taxonomy.png" width="100%"> </p>
 
 ## Datasets
