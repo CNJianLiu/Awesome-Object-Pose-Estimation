@@ -101,10 +101,7 @@ GenFlow: Generalizable Recurrent Flow for 6D Pose Refinement of Novel Objects [[
 
 <details>
 <summary>Mannual Reference View-Based</summary>
-[[Paper]]() [[Code]]()
   
-### 2019
-
 ### 2020 
 LatentFusion: End-to-End Differentiable Reconstruction and Rendering for Unseen Object Pose Estimation[[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Park_LatentFusion_End-to-End_Differentiable_Reconstruction_and_Rendering_for_Unseen_Object_Pose_CVPR_2020_paper.pdf) [[Code]](https://github.com/NVlabs/latentfusion)
 ### 2021
