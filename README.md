@@ -16,7 +16,7 @@ This is the official repository of [''Deep Learning-Based Object Pose Estimation
 <p align="center"> <img src="./resources/taxonomy.png" width="100%"> </p>
 
 ## Datasets
-Chronological overview of the datasets for object pose estimation evaluation. Notably, the pink arrows represent the BOP datasets, which can be used to evaluate both instance-level and unseen object methods. The red references represent the datasets of articulated objects. From this, we can also see the development trend in the field of object pose estimation, i.e., from instance-level methods to category-level and unseen methods.
+Chronological overview of the datasets for object pose estimation evaluation. Notably, the pink arrows represent the BOP datasets, which can be used to evaluate both instance-level and unseen object methods. The red references represent the datasets of articulated objects.
 
 <p align="center"> <img src="./resources/datasets.png" width="100%"> </p>
 
