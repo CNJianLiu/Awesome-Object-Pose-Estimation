@@ -43,7 +43,7 @@ Learning Canonical Shape Space for Category-Level 6D Object Pose and Size Estima
 
 ## Unseen
 ### 2019
-CorNet: Generic 3D Corners for 6D Pose Estimation of New Objects without Retraining [[Paper](https://openaccess.thecvf.com/content_ICCVW_2019/papers/R6D/Pitteri_CorNet_Generic_3D_Corners_for_6D_Pose_Estimation_of_New_ICCVW_2019_paper.pdf)
+CorNet: Generic 3D Corners for 6D Pose Estimation of New Objects without Retraining [[Paper]](https://openaccess.thecvf.com/content_ICCVW_2019/papers/R6D/Pitteri_CorNet_Generic_3D_Corners_for_6D_Pose_Estimation_of_New_ICCVW_2019_paper.pdf)
 ### 2020
 ### 2021
 ### 2022
