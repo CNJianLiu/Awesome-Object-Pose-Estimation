@@ -11,5 +11,27 @@ Jin Zeng, [Xingyu Liu](https://lliu-xingyu.github.io/), [Hossein Rahmani](https:
 </div>
 
 ## Introduction
-# Awesome-Object-Pose-Estimation
+
+This is the official repository of [''Deep Learning-Based Object Pose Estimation: A Comprehensive Survey''](https://arxiv.org/pdf/2202.02980.pdf). Object pose estimation is a fundamental computer vision problem with broad applications in augmented reality and robotics. Over the past decade, deep learning models, due to their superior accuracy and robustness, have increasingly supplanted conventional algorithms reliant on engineered point pair features. Nevertheless, several challenges persist in contemporary methods, including their dependency on labeled training data, model compactness, robustness under challenging conditions, and their ability to generalize to novel unseen objects. There is a lack of recent survey that discusses the progress made on different aspects of this area, challenges that are still outstanding, and promising future directions. To fill this gap, we provide a comprehensive survey of recent advances in deep learning-based object pose estimation, covering all three formulations of the problem, namely instance-level, category-level, and unseen object pose estimation. Specifically, we first introduce the [[datasets]](#datasets) used for this task. Then, we review the [[instance-level]](#instance-level), [[category-level]](#category-level), and [[unseen]](#unseen) methods, respectively. Next, we review the common [[applications]](#applications) of object pose estimation. Finally, we summarize this article and provide an outlook on future research directions based on the challenges in the field.
+
+## Datasets
+
+#### Summary of the Datasets
+
+<p align="center"> <img src="./resources/datasets.jpg" width="95%"> </p>
+
+#### Resources of the Datasets
+
+- KITTI-3D [[Paper (CVPR'12)]](http://www.cvlibs.net/publications/Geiger2012CVPR.pdf) [[Paper (IJRR'13)]](https://www.mrt.kit.edu/z/publ/download/2013/GeigerAl2013IJRR.pdf) [[Homepage]](http://www.cvlibs.net/datasets/kitti/) [[Data]](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) [[Benchmark]](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d)
+- Argoverse [[Paper (CVPR'19)]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Chang_Argoverse_3D_Tracking_and_Forecasting_With_Rich_Maps_CVPR_2019_paper.pdf) [[Paper (NeurIPS'21)]](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/4734ba6f3de83d861c3176a6273cac6d-Paper-round2.pdf) [[Homepage]](https://www.argoverse.org/index.html) [[Data]](https://www.argoverse.org/data.html#download-link) [[Benchmark]](https://eval.ai/web/challenges/challenge-page/725/leaderboard/1974)
+- Lyft L5 [[Homepage]](https://level-5.global/) [[Data]](https://level-5.global/download/) 
+- H3D [[Paper (ICRA'19)]](https://arxiv.org/pdf/1903.01568.pdf) [[Data]](https://usa.honda-ri.com//H3D)
+- A\*3D [[Paper (ICRA'20)]](https://arxiv.org/pdf/1909.07541.pdf) [[Homepage]](https://github.com/I2RDL2/ASTAR-3D)
+- nuScenes [[Paper (CVPR'20)]](https://arxiv.org/abs/1903.11027.pdf) [[Homepage]](https://www.nuscenes.org/) [[Data]](https://www.nuscenes.org/nuscenes#download) [[Benchmark]](https://www.nuscenes.org/object-detection?externalData=all&mapData=all&modalities=Camera)
+- Waymo Open [[Paper (CVPR'20)]](https://arxiv.org/abs/1912.04838.pdf) [[Homepage]](https://waymo.com/open/) [[Data]](https://waymo.com/open/download/) [[Benchmark]](https://waymo.com/open/challenges/2020/3d-detection/)
+- CityScapes-3D [[Paper (CVPR'20 Workshop)]](https://arxiv.org/pdf/2006.07864.pdf) [[Homepage]](https://www.cityscapes-dataset.com/) [[Data]](https://www.cityscapes-dataset.com/downloads/) [[Benchmark]](https://www.cityscapes-dataset.com/benchmarks/#3d-vehicle-detection-task)
+- A2D2 [[Paper (arXiv)]](https://arxiv.org/pdf/2004.06320.pdf) [[Homepage]](https://www.a2d2.audi/a2d2/en.html) [[Data]](https://www.a2d2.audi/a2d2/en/download.html)
+- KITTI-360 [[Paper (arXiv)]](https://arxiv.org/abs/2109.13410.pdf) [[Homepage]](http://www.cvlibs.net/datasets/kitti-360/) [[Data]](http://www.cvlibs.net/datasets/kitti-360/download.php) [[Benchmark]](http://www.cvlibs.net/datasets/kitti-360/leaderboard_scene_understanding.php?task=box3d)
+- Rope3D [[Paper (CVPR'22)]](https://openaccess.thecvf.com/content/CVPR2022/papers/Ye_Rope3D_The_Roadside_Perception_Dataset_for_Autonomous_Driving_and_Monocular_CVPR_2022_paper.pdf) [[Homepage]](https://thudair.baai.ac.cn/index) [[Data]](https://thudair.baai.ac.cn/rope)
+
 
