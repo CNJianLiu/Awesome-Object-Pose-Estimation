@@ -6,7 +6,7 @@
 
 Jin Zeng, [Xingyu Liu](https://lliu-xingyu.github.io/), [Hossein Rahmani](https://sites.google.com/view/rahmaniatlu), [Nicu Sebe](https://scholar.google.com.hk/citations?user=stFCYOAAAAAJ&hl=zh-CN&oi=ao), [Ajmal Mian](https://ajmalsaeed.net/)
 
-### [Introduction](#introduction) | [Datasets](#datasets) | [Instance-Level](#Instance-Level Methods) | [Category-Level](#Category-Level Methods) | [Unseen](#Unseen Methods)
+### [Introduction](#introduction) | [Datasets](#datasets) | [Instance-Level](#instance-level methods) | [Category-Level](#Category-Level Methods) | [Unseen](#Unseen Methods)
 
 </div>
 
