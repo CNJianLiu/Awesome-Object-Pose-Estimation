@@ -20,7 +20,7 @@ Specifically, we first introduce the [[datasets]](#datasets) used for this task.
 
 #### Summary of the Datasets
 
-<p align="center"> <img src="./resources/datasets.png" width="95%"> </p>
+<p align="center"> <img src="./resources/datasets.png" width="100%"> </p>
 
 #### Resources of the Datasets
 
