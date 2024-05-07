@@ -12,13 +12,15 @@ Jin Zeng, [Xingyu Liu](https://lliu-xingyu.github.io/), [Hossein Rahmani](https:
 
 ## Introduction
 
-This is the official repository of [''Deep Learning-Based Object Pose Estimation: A Comprehensive Survey''](https://arxiv.org/pdf/2202.02980.pdf). Object pose estimation is a fundamental computer vision problem with broad applications in augmented reality and robotics. Over the past decade, deep learning models, due to their superior accuracy and robustness, have increasingly supplanted conventional algorithms reliant on engineered point pair features. Nevertheless, several challenges persist in contemporary methods, including their dependency on labeled training data, model compactness, robustness under challenging conditions, and their ability to generalize to novel unseen objects. There is a lack of recent survey that discusses the progress made on different aspects of this area, challenges that are still outstanding, and promising future directions. To fill this gap, we provide a comprehensive survey of recent advances in deep learning-based object pose estimation, covering all three formulations of the problem, namely instance-level, category-level, and unseen object pose estimation. Specifically, we first introduce the [[datasets]](#datasets) used for this task. Then, we review the [[instance-level]](#instance-level), [[category-level]](#category-level), and [[unseen]](#unseen) methods, respectively. Next, we review the common [[applications]](#applications) of object pose estimation. Finally, we summarize this article and provide an outlook on future research directions based on the challenges in the field.
+This is the official repository of [''Deep Learning-Based Object Pose Estimation: A Comprehensive Survey''](https://arxiv.org/pdf/2202.02980.pdf). Object pose estimation is a fundamental computer vision problem with broad applications in augmented reality and robotics. Over the past decade, deep learning models, due to their superior accuracy and robustness, have increasingly supplanted conventional algorithms reliant on engineered point pair features. Nevertheless, several challenges persist in contemporary methods, including their dependency on labeled training data, model compactness, robustness under challenging conditions, and their ability to generalize to novel unseen objects. There is a lack of recent survey that discusses the progress made on different aspects of this area, challenges that are still outstanding, and promising future directions. To fill this gap, we provide a comprehensive survey of recent advances in deep learning-based object pose estimation, covering all three formulations of the problem, namely instance-level, category-level, and unseen object pose estimation.
+
+Specifically, we first introduce the [[datasets]](#datasets) used for this task. Then, we review the [[instance-level]](#instance-level), [[category-level]](#category-level), and [[unseen]](#unseen) methods, respectively. Next, we review the common [[applications]](#applications) of object pose estimation. Finally, we summarize this article and provide an outlook on future research directions based on the challenges in the field.
 
 ## Datasets
 
 #### Summary of the Datasets
 
-<p align="center"> <img src="./resources/datasets.jpg" width="95%"> </p>
+<p align="center"> <img src="./resources/datasets.pdf" width="95%"> </p>
 
 #### Resources of the Datasets
 
