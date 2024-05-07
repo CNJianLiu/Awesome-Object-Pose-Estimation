@@ -51,6 +51,7 @@ CorNet: Generic 3D Corners for 6D Pose Estimation of New Objects without Retrain
 ### 2022
 ### 2023
 ### 2024
+FreeZe: Training-free zero-shot 6D pose estimation with geometric and vision foundation models [[Paper]] (https://arxiv.org/pdf/2312.00947)
 
 
 ## Applications
