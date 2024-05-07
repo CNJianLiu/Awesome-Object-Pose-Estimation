@@ -20,18 +20,41 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 
 <p align="center"> <img src="./resources/datasets.png" width="100%"> </p>
 
-#### Datasets for Instance-Level Methods
+### Datasets for Instance-Level Methods
 
 - BOP Challenge Datasets [[Paper]](https://arxiv.org/abs/2403.09799) [[Data]](https://bop.felk.cvut.cz/challenges/bop-challenge-2023/)
 
-#### Datasets for Instance-Level Methods
+### Datasets for Category-Level Methods
 
-#### Datasets for Instance-Level Methods
+### Datasets for Unseen Methods
+
+
 
 ## Instance-Level
 
+
+
 ## Category-Level
+### 2019
+Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Normalized_Object_Coordinate_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2019_paper.pdf) [[Code]](https://github.com/hughw19/NOCS_CVPR2019)
+### 2020
+Learning Canonical Shape Space for Category-Level 6D Object Pose and Size Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Learning_Canonical_Shape_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2020_paper.pdf)
+
 
 ## Unseen
 
+
+
 ## Applications
+### Robotic Manipulation
+#### Instance-Level Manipulation
+#### Category-Level Manipulation
+#### Unseen Object Manipulation
+
+### Augmented Reality/Virtual Reality
+
+### Aerospace
+
+### Hand-Object Interaction
+
+### Autonomous Driving
