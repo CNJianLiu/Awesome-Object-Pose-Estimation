@@ -26,6 +26,16 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 - YCBInEOAT Dataset [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9341314) [[Data]](https://github.com/wenbowen123/iros20-6d-pose-tracking)
 
 ### Datasets for Category-Level Methods
+#### Rigid Objects Datasets
+- CAMERA25 Dataset [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Normalized_Object_Coordinate_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2019_paper.pdf) [[Data]](https://github.com/hughw19/NOCS_CVPR2019)
+- REAL275 Dataset [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Normalized_Object_Coordinate_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2019_paper.pdf) [[Data]](https://github.com/hughw19/NOCS_CVPR2019)
+- kPAM Dataset [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-95459-8_9) [[Data]](https://sites.google.com/view/kpam)
+- TOD Dataset [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Liu_KeyPose_Multi-View_3D_Labeling_and_Keypoint_Estimation_for_Transparent_Objects_CVPR_2020_paper.pdf) [[Data]](https://sites.google.com/view/keypose)
+- Objectron Dataset [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Ahmadyan_Objectron_A_Large_Scale_Dataset_of_Object-Centric_Videos_in_the_CVPR_2021_paper.pdf) [[Data]](https://github.com/google-research-datasets/Objectron)
+- Wild6D Dataset [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/afe99e55be23b3523818da1fefa33494-Abstract-Conference.html) [[Data]](https://oasisyang.github.io/semi-pose/)
+- PhoCaL Dataset [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_PhoCaL_A_Multi-Modal_Dataset_for_Category-Level_Object_Pose_Estimation_With_CVPR_2022_paper.pdf) [[Data]](https://www.campar.in.tum.de/public_datasets/2022_cvpr_wang/)
+- HouseCat6D Dataset [[Paper]](https://arxiv.org/pdf/2212.10428) [[Data]](https://sites.google.com/view/housecat6d)
+#### Articulated Objects Datasets
 
 ### Datasets for Unseen Methods
 
