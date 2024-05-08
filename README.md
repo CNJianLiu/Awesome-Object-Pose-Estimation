@@ -148,7 +148,25 @@ Research on category-level methods has garnered significant attention due to the
 <summary>NOCS Shape Alignment Methods</summary>
   
 #### 2020
-- Learning Canonical Shape Space for Category-Level 6D Object Pose and Size Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Learning_Canonical_Shape_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2020_paper.pdf)
+- Shape Prior Deformation for Categorical 6D Object Pose and Size Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-58589-1_32) [[Code]](https://github.com/mentian/object-deformnet)
+#### 2021
+- Category-Level 6D Object Pose Estimation via Cascaded Relation and Recurrent Reconstruction Networks [[Paper]](https://ieeexplore.ieee.org/abstract/document/9636212)
+- SGPA: Structure-Guided Prior Adaptation for Category-Level 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_SGPA_Structure-Guided_Prior_Adaptation_for_Category-Level_6D_Object_Pose_Estimation_ICCV_2021_paper.pdf) [[Code]](https://github.com/ck-kai/SGPA)
+- ACR-Pose: Adversarial Canonical Representation Reconstruction Network for Category Level 6D Object Pose Estimation [[Paper]](https://arxiv.org/abs/2111.10524)
+#### 2022
+- 6D-ViT: Category-Level 6D Object Pose Estimation via Transformer-Based Instance Representation Learning [[Paper]](https://ieeexplore.ieee.org/abstract/document/9933183) [[Code]](https://github.com/luzzou/6D-ViT)
+- Towards Self-Supervised Category-Level Object Pose and Size Estimation [[Paper]](https://arxiv.org/abs/2203.02884)
+- Object Level Depth Reconstruction for Category Level 6D Object Pose Estimation from Monocular RGB Image [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20086-1_13)
+#### 2023
+- Category-Level 6D Pose Estimation Using Geometry-Guided Instance-Aware Prior and Multi-Stage Reconstruction [[Paper]](https://ieeexplore.ieee.org/abstract/document/10058152)
+- StereoPose: Category-Level 6D Transparent Object Pose Estimation from Stereo Images via Back-View NOCS [[Paper]](https://ieeexplore.ieee.org/abstract/document/10160780) [[Code]](https://appsrv.cse.cuhk.edu.hk/~kaichen/stereopose.html)
+- DR-Pose: A Two-Stage Deformation-and-Registration Pipeline for Category-Level 6D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10341552) [[Code]](https://github.com/Zray26/DR-Pose.git)
+- GPT-COPE: A Graph-Guided Point Transformer for Category-Level Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10236566)
+- SD-Pose: Structural Discrepancy Aware Category-Level 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/WACV2023/papers/Li_SD-Pose_Structural_Discrepancy_Aware_Category-Level_6D_Object_Pose_Estimation_WACV_2023_paper.pdf)
+- Generative Category-Level Shape and Pose Estimation with Semantic Primitives [[Paper]](https://proceedings.mlr.press/v205/li23d.html) [[Code]](https://zju3dv.github.io/gCasp)
+- RGB-based Category-level Object Pose Estimation via Decoupled Metric Scale Recovery [[Paper]](https://arxiv.org/abs/2309.10255) [[Code]](https://github.com/goldoak/DMSR)
+#### 2024
+- CatFormer: Category-Level 6D Object Pose Estimation with Transformer [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/28505) [[Code]](https://github.com/BIT-robot-group/CatFormer)
 </details>
 
 <details>
