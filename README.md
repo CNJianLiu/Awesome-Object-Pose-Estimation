@@ -66,6 +66,7 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 
 
 ## Instance-Level
+Instance-level object pose estimation describes the task of estimating the pose of the objects that have been seen during the training of the model. We classify existing instance-level methods into four categories: correspondence-based, template-based, voting-based, and regression-based methods.
 ### Correspondence-Based Methods
 <details>
 <summary>Sparse Correspondence Methods</summary>
@@ -141,6 +142,7 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 
 
 ## Category-Level
+Research on category-level methods has garnered significant attention due to their potential for generalizing to unseen objects within established categories. We classify them into two categories: shape prior-based and shape prior-free methods.
 ### Shape Prior-Based Methods
 <details>
 <summary>NOCS Shape Alignment Methods</summary>
@@ -181,6 +183,7 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 </details>
 
 ## Unseen
+Unseen object pose estimation methods can generalize to unseen objects without the need for retraining. We classify existing unseen methods into two categories: CAD model-based and manual reference view-based methods.
 ### CAD Model-Based Methods
 <details>
 <summary>CAD Model-Based</summary>
@@ -266,6 +269,10 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 
 
 ## Applications
+Chronological overview of some representative applications of object pose estimation methods. The black references, red references, and orange references represent the application of instance-level, category-level, and unseen methods, respectively.
+
+<p align="center"> <img src="./resources/applications.png" width="100%"> </p>
+
 ### Robotic Manipulation
 <details>
 <summary>Instance-Level Manipulation</summary>
