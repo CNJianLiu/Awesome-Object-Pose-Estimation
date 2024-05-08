@@ -461,7 +461,12 @@ Chronological overview of some representative applications of object pose estima
 <details>
 <summary>Category-Level Manipulation</summary>
 
-
+- Robotic Continuous Grasping System by Shape Transformer-Guided Multiobject Category-Level 6-D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10043016) [[Code]](https://github.com/CNJianLiu/6D-CLGrasp)
+- Fine Segmentation and Difference-Aware Shape Adjustment for Category-Level 6DoF Object Pose Estimation [[Paper]](https://link.springer.com/article/10.1007/s10489-023-04688-0)
+- Category-Level 6-D Object Pose Estimation With Shape Deformation for Robotic Grasp Detection [[Paper]](https://ieeexplore.ieee.org/abstract/document/10316630)
+- ICK-Track: A Category-Level 6-DoF Pose Tracker Using Inter-Frame Consistent Keypoints for Aerial Manipulation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9982183) [[Code]](https://github.com/S-JingTao/ICK-Track)
+- Robotic Grasp Detection Based on Category-Level Object Pose Estimation With Self-Supervised Learning [[Paper]](https://ieeexplore.ieee.org/abstract/document/10178020)
+- Domain-Generalized Robotic Picking via Contrastive Learning-Based 6-D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10475688)
 </details>
 <details>
 <summary>Unseen Object Manipulation</summary>
