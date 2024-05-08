@@ -21,12 +21,17 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 <p align="center"> <img src="./resources/datasets.png" width="100%"> </p>
 
 ### Datasets for Instance-Level Methods
-
+<details>
+<summary>All Datasets</summary>
+  
 - BOP Challenge Datasets [[Paper]](https://arxiv.org/abs/2403.09799) [[Data]](https://bop.felk.cvut.cz/challenges/bop-challenge-2023/)
 - YCBInEOAT Dataset [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9341314) [[Data]](https://github.com/wenbowen123/iros20-6d-pose-tracking)
+</details>
 
 ### Datasets for Category-Level Methods
-#### Rigid Objects Datasets
+<details>
+<summary>Rigid Objects Datasets</summary>
+  
 - CAMERA25 Dataset [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Normalized_Object_Coordinate_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2019_paper.pdf) [[Data]](https://github.com/hughw19/NOCS_CVPR2019)
 - REAL275 Dataset [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Normalized_Object_Coordinate_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2019_paper.pdf) [[Data]](https://github.com/hughw19/NOCS_CVPR2019)
 - kPAM Dataset [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-95459-8_9) [[Data]](https://sites.google.com/view/kpam)
@@ -35,22 +40,29 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 - Wild6D Dataset [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/afe99e55be23b3523818da1fefa33494-Abstract-Conference.html) [[Data]](https://oasisyang.github.io/semi-pose/)
 - PhoCaL Dataset [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_PhoCaL_A_Multi-Modal_Dataset_for_Category-Level_Object_Pose_Estimation_With_CVPR_2022_paper.pdf) [[Data]](https://www.campar.in.tum.de/public_datasets/2022_cvpr_wang/)
 - HouseCat6D Dataset [[Paper]](https://arxiv.org/pdf/2212.10428) [[Data]](https://sites.google.com/view/housecat6d)
-#### Articulated Objects Datasets
+</details>
+
+<details>
+<summary>Articulated Objects Datasets</summary>
+  
 - BMVC Dataset [[Paper]](https://www.researchgate.net/profile/Frank-Michel/publication/292033202_Pose_Estimation_of_Kinematic_Chain_Instances_via_Object_Coordinate_Regression/links/56caf40b08aee3cee5414a70/Pose-Estimation-of-Kinematic-Chain-Instances-via-Object-Coordinate-Regression.pdf) [[Data]](https://gaminghardware-guide.de/gaminghardware-guide-de-hat-cvlab-dresden-de-uebernommen/research/scene-understanding/pose-estimation/#BMVC15)
 - RBO Dataset [[Paper]](https://journals.sagepub.com/doi/full/10.1177/0278364919844314) [[Data]](https://zenodo.org/records/1036660)
 - HOI4D Dataset [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_HOI4D_A_4D_Egocentric_Dataset_for_Category-Level_Human-Object_Interaction_CVPR_2022_paper.pdf) [[Data]](http://www.hoi4d.top/)
 - ReArtMix/ReArtVal Dataset [[Paper]](https://ieeexplore.ieee.org/abstract/document/9670684)
 - ContactArt Dataset [[Paper]](https://arxiv.org/pdf/2305.01618) [[Data]](https://zehaozhu.github.io/ContactArt/)
+</details>
 
 ### Datasets for Unseen Methods
-
+<details>
+<summary>All Datasets</summary>
+  
 - MOPED Dataset [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Park_LatentFusion_End-to-End_Differentiable_Reconstruction_and_Rendering_for_Unseen_Object_Pose_CVPR_2020_paper.pdf) [[Data]](https://latentfusion.github.io/)
-
 - GenMOP Dataset [[Paper]](https://link.springer.com/content/pdf/10.1007/978-3-031-19824-3_18) [[Data]](https://liuyuan-pal.github.io/Gen6D/)
-
 - OnePose Dataset [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_OnePose_One-Shot_Object_Pose_Estimation_Without_CAD_Models_CVPR_2022_paper.pdf) [[Data]](https://zju3dv.github.io/onepose/)
-
 - OnePose-LowTexture Dataset [[Paper]](https://papers.nips.cc/paper_files/paper/2022/file/e43f900f571de6c96a70d5724a0fb565-Paper-Conference.pdf) [[Data]](https://zju3dv.github.io/onepose_plus_plus/)
+</details>
+
+
 
 
 ## Instance-Level
