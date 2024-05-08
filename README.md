@@ -156,14 +156,72 @@ Instance-level object pose estimation describes the task of estimating the pose 
 ### Regression-Based Methods
 <details>
 <summary>Geometry-Guided Regression Methods</summary>
-
-</details>
-<details>
-<summary>Direct Regression Methods</summary>
   
 #### 2019
 
 #### 2020
+- 6D Object Pose Regression via Supervised Learning on Point Clouds [[Paper]](https://ieeexplore.ieee.org/abstract/document/9197461)
+- Neural Object Learning for 6D Pose Estimation Using a Few Cluttered Images [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-58548-8_38) [[Code]](https://github.com/kirumang/NOL)
+- G2L-Net: Global to Local Network for Real-Time 6D Pose Estimation With Embedding Vector Features [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_G2L-Net_Global_to_Local_Network_for_Real-Time_6D_Pose_Estimation_CVPR_2020_paper.pdf) [[Code]])(https://github.com/DC1991/G2L_Net)
+- Single-Stage 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hu_Single-Stage_6D_Object_Pose_Estimation_CVPR_2020_paper.pdf) 
+#### 2021
+- 6D Object Pose Estimation with Pairwise Compatible Geometric Features [[Paper]](https://ieeexplore.ieee.org/abstract/document/9561404)
+- CloudAAE: Learning 6D Object Pose Regression with On-line Data Synthesis on Point Clouds [[Paper]](https://ieeexplore.ieee.org/abstract/document/9561475) [[Code]](https://github.com/GeeeG/CloudAAE)
+- Semi-Supervised 6D Object Pose Estimation Without Using Real Annotations [[Paper]](https://ieeexplore.ieee.org/abstract/document/9662384)
+- StablePose: Learning 6D Object Poses From Geometrically Stable Patches [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Shi_StablePose_Learning_6D_Object_Poses_From_Geometrically_Stable_Patches_CVPR_2021_paper.pdf) [[Code]](https://github.com/GodZarathustra/stablepose_pytorch)
+- GCCN: Geometric Constraint Co-attention Network for 6D Object Pose Estimation [[Paper]](https://dl.acm.org/doi/abs/10.1145/3474085.3475209?casa_token=p4ZvjzCKVPcAAAAA:OOKExJlTMyCiS2-5-p1VB7EQIZajbgGxuwvdjrIerKWDS_Ak2s_tSGkaFCzKnLSeTXNnCh9I6yF2CQ)
+- SO-Pose: Exploiting Self-Occlusion for Direct 6D Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Di_SO-Pose_Exploiting_Self-Occlusion_for_Direct_6D_Pose_Estimation_ICCV_2021_paper.pdf) [[Code]](https://github.com/shangbuhuan13/SO-Pose)
+- GDR-Net: Geometry-Guided Direct Regression Network for Monocular 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_GDR-Net_Geometry-Guided_Direct_Regression_Network_for_Monocular_6D_Object_Pose_CVPR_2021_paper.pdf) [[Code]](https://github.com/THU-DA-6D-Pose-Group/GDR-Net)
+- Occlusion-Aware Self-Supervised Monocular 6D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9655492) [[Code]](https://github.com/THU-DA-6D-Pose-Group/self6dpp)
+
+#### 2022
+- Trans6D: Transformer-Based 6D Object Pose Estimation and Refinement [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-25085-9_7)
+#### 2023
+- SMOC-Net: Leveraging Camera Pose for Self-Supervised Monocular Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Tan_SMOC-Net_Leveraging_Camera_Pose_for_Self-Supervised_Monocular_Object_Pose_Estimation_CVPR_2023_paper.pdf)
+- TexPose: Neural Texture Learning for Self-Supervised 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_TexPose_Neural_Texture_Learning_for_Self-Supervised_6D_Object_Pose_Estimation_CVPR_2023_paper.pdf) [[Code]](https://github.com/HanzhiC/TexPose)
+- NVR-Net: Normal Vector Guided Regression Network for Disentangled 6D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10168178) 
+#### 2024
+- PA-Pose: Partial point cloud fusion based on reliable alignment for 6D pose tracking [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320323008488)
+- HFT6D: Multimodal 6D object pose estimation based on hierarchical feature transformer [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0263224123014124) 
+</details>
+<details>
+<summary>Direct Regression Methods</summary>
+  
+#### 2017
+- Deep 6-DOF Tracking [[Paper]](https://ieeexplore.ieee.org/abstract/document/8007334) [[Code]](https://github.com/lvsn/deeptracking)
+- PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes [[Paper]](https://arxiv.org/abs/1711.00199) [[Code]](https://github.com/yuxng/PoseCNN)
+#### 2018
+- Learning 6DoF Object Poses from Synthetic Single Channel Images [[Paper]](https://ieeexplore.ieee.org/abstract/document/8699254)
+- Real-Time Object Pose Estimation with Pose Interpreter Networks [[Paper]](https://ieeexplore.ieee.org/abstract/document/8593662) [[Code]](https://github.com/jimmyyhwu/pose-interpreter-networks)
+- Deep-6DPose: Recovering 6D Object Pose from a Single RGB Image [[Paper]](https://arxiv.org/abs/1802.10367) [[Code]](https://github.com/ryohachiuma/Deep-6dPose)
+- A Unified Framework for Multi-View Multi-Class Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Chi_Li_A_Unified_Framework_ECCV_2018_paper.pdf)
+- DeepIM: Deep Iterative Matching for 6D Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yi_Li_DeepIM_Deep_Iterative_ECCV_2018_paper.pdf) [[Code]](https://github.com/liyi14/mx-DeepIM)
+- Deep Model-Based 6D Pose Refinement in RGB [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Fabian_Manhardt_Deep_Model-Based_6D_ECCV_2018_paper.pdf) [[Code]](https://github.com/fabi92/eccv18-rgb_pose_refinement)
+- Object Detection and Pose Estimation Based on Convolutional Neural Networks Trained with Synthetic Data [[Paper]](https://ieeexplore.ieee.org/abstract/document/8594379)
+#### 2019
+- PCRNet: Point Cloud Registration Network using PointNet Encoding [[Paper]](https://arxiv.org/abs/1908.07906) [[Code]](https://github.com/vinits5/pcrnet)
+- Explaining the Ambiguity of Object Detection and 6D Pose From Visual Data [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Manhardt_Explaining_the_Ambiguity_of_Object_Detection_and_6D_Pose_From_ICCV_2019_paper.pdf)
+- 3D Object Pose Estimation Using Multi-Objective Quaternion Learning [[Paper]](https://ieeexplore.ieee.org/abstract/document/8765585)
+- Regression-Based Three-Dimensional Pose Estimation for Texture-Less Objects [[Paper]](https://ieeexplore.ieee.org/abstract/document/8698890) [[Code]](https://github.com/NUAA-Yuanpeng/PoseRegression)
+#### 2020
+- Single Shot 6D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9197207)
+- EfficientPose: An efficient, accurate and scalable end-to-end 6D multi object pose estimation approach [[Paper]](https://arxiv.org/abs/2011.04307) [[Code]](https://github.com/ybkscht/EfficientPose)
+- Self6D: Self-supervised Monocular 6D Object Pose Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_7) [[Code]](https://github.com/THU-DA-6D-Pose-Group/self6dpp)
+- CosyPose: Consistent Multi-view Multi-object 6D Pose Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-58520-4_34) [[Code]](https://github.com/ylabbe/cosypose)
+- se(3)-TrackNet: Data-driven 6D Pose Tracking by Calibrating Image Residuals in Synthetic Domains [[Paper]](https://ieeexplore.ieee.org/abstract/document/9341314) [[Code]](https://github.com/wenbowen123/iros20-6d-pose-tracking)
+#### 2021
+- Pose Estimation from RGB Images of Highly Symmetric Objects using a Novel Multi-Pose Loss and Differential Rendering [[Paper]](https://ieeexplore.ieee.org/abstract/document/9636839) [[Code]](https://github.com/shbe-aau/multi-pose-estimation)
+- Vipose: Real-time visual-inertial 6d object pose tracking [[Paper]](VIPose: Real-time Visual-Inertial 6D Object Pose Tracking)
+- RePOSE: Fast 6D Object Pose Refinement via Deep Texture Rendering [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Iwase_RePOSE_Fast_6D_Object_Pose_Refinement_via_Deep_Texture_Rendering_ICCV_2021_paper.pdf)  [[Code]](https://github.com/sh8/RePOSE)
+#### 2022
+- DProST: Dynamic Projective Spatial Transformer Network for 6D Pose Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20068-7_21) [[Code]](https://github.com/parkjaewoo0611/DProST)
+- Uni6D: A Unified CNN Framework Without Projection Breakdown for 6D Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_Uni6D_A_Unified_CNN_Framework_Without_Projection_Breakdown_for_6D_CVPR_2022_paper.pdf)
+- HFF6D: Hierarchical Feature Fusion Network for Robust 6D Object Pose Tracking [[Paper]](https://ieeexplore.ieee.org/abstract/document/9792223)
+#### 2023
+- Shape-Constraint Recurrent Flow for 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Hai_Shape-Constraint_Recurrent_Flow_for_6D_Object_Pose_Estimation_CVPR_2023_paper.pdf) [[Code]](https://github.com/YangHai-1218/SCFlow)
+#### 2024
+- Confronting Ambiguity in 6D Object Pose Estimation via Score-Based Diffusion on SE(3) [[Paper]](https://arxiv.org/abs/2305.15873)
+- MRC-Net: 6-DoF Pose Estimation with MultiScale Residual Correlation [[Paper]](https://arxiv.org/abs/2403.08019) [[Code]](https://github.com/amzn/mrc-net-6d-pose)
 
 </details>
 
