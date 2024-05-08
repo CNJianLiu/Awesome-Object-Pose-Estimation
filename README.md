@@ -71,10 +71,34 @@ Instance-level object pose estimation describes the task of estimating the pose 
 ### Correspondence-Based Methods
 <details>
 <summary>Sparse Correspondence Methods</summary>
-  
-#### 2019
 
+#### 2017
+- BB8: A Scalable, Accurate, Robust to Partial Occlusion Method for Predicting the 3D Poses of Challenging Objects Without Using Depth
+ [[Paper]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Rad_BB8_A_Scalable_ICCV_2017_paper.pdf)
+- 6-dof object pose from semantic keypoints [[Paper]](https://ieeexplore.ieee.org/abstract/document/7989233) [[Code]](https://github.com/geopavlakos/object3d)
+- Robust 3D Object Tracking from Monocular Images Using Stable Parts [[Paper]](https://ieeexplore.ieee.org/abstract/document/7934426)
+#### 2018
+- Real-Time Seamless Single Shot 6D Object Pose Prediction [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Tekin_Real-Time_Seamless_Single_CVPR_2018_paper.pdf)
+- Making Deep Heatmaps Robust to Partial Occlusions for 3D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Markus_Oberweger_Making_Deep_Heatmaps_ECCV_2018_paper.pdf)
+#### 2019
+- Segmentation-Driven 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hu_Segmentation-Driven_6D_Object_Pose_Estimation_CVPR_2019_paper.pdf)
+- Learning Local RGB-to-CAD Correspondences for Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Georgakis_Learning_Local_RGB-to-CAD_Correspondences_for_Object_Pose_Estimation_ICCV_2019_paper.pdf)
 #### 2020
+- HOPE-Net: A Graph-Based Model for Hand-Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Doosti_HOPE-Net_A_Graph-Based_Model_for_Hand-Object_Pose_Estimation_CVPR_2020_paper.pdf)
+- HybridPose: 6D Object Pose Estimation Under Hybrid Representations [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Song_HybridPose_6D_Object_Pose_Estimation_Under_Hybrid_Representations_CVPR_2020_paper.pdf)
+- Learning Deep Network for Detecting 3D Object Keypoints and 6D Poses [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhao_Learning_Deep_Network_for_Detecting_3D_Object_Keypoints_and_6D_CVPR_2020_paper.pdf)
+- Introducing Pose Consistency and Warp-Alignment for Self-Supervised 6D Object Pose Estimation in Color Images [[Paper]](https://ieeexplore.ieee.org/abstract/document/9320376)
+#### 2021
+- MFPN-6D : Real-time One-stage Pose Estimation of Objects on RGB Images [[Paper]](https://ieeexplore.ieee.org/abstract/document/9561878)
+- Wide-Depth-Range 6D Object Pose Estimation in Space [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Wide-Depth-Range_6D_Object_Pose_Estimation_in_Space_CVPR_2021_paper.pdf)
+- Confidence-Based 6D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9464273)
+- DSC-PoseNet: Learning 6DoF Object Pose Estimation via Dual-Scale Consistency [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_DSC-PoseNet_Learning_6DoF_Object_Pose_Estimation_via_Dual-Scale_Consistency_CVPR_2021_paper.pdf)
+- Semi-Supervised 3D Hand-Object Poses Estimation With Interactions in Time [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Semi-Supervised_3D_Hand-Object_Poses_Estimation_With_Interactions_in_Time_CVPR_2021_paper.pdf) [[Code]](https://stevenlsw.github.io/Semi-Hand-Object)
+- Keypoint-Graph-Driven Learning Framework for Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Keypoint-Graph-Driven_Learning_Framework_for_Object_Pose_Estimation_CVPR_2021_paper.pdf)
+- PyraPose: Feature Pyramids for Fast and Accurate Object Pose Estimation under Domain Shift [[Paper]](https://ieeexplore.ieee.org/abstract/document/9562108)
+#### 2023
+- Knowledge Distillation for 6D Pose Estimation by Aligning Distributions of Local Predictions [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Guo_Knowledge_Distillation_for_6D_Pose_Estimation_by_Aligning_Distributions_of_CVPR_2023_paper.pdf)
+- Linear-Covariance Loss for End-to-End Learning of 6D Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_Linear-Covariance_Loss_for_End-to-End_Learning_of_6D_Pose_Estimation_ICCV_2023_paper.pdf)
 
 </details>
 <details>
