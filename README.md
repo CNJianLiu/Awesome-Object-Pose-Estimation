@@ -108,16 +108,48 @@ Instance-level object pose estimation describes the task of estimating the pose 
 <summary>Indirect Voting Methods</summary>
   
 #### 2019
-
+- PVNet: Pixel-Wise Voting Network for 6DoF Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Peng_PVNet_Pixel-Wise_Voting_Network_for_6DoF_Pose_Estimation_CVPR_2019_paper.pdf) [[Code]](https://github.com/zju3dv/pvnet)
 #### 2020
+- PVN3D: A Deep Point-Wise 3D Keypoints Voting Network for 6DoF Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/He_PVN3D_A_Deep_Point-Wise_3D_Keypoints_Voting_Network_for_6DoF_CVPR_2020_paper.pdf) [[Code]](https://github.com/ethnhe/PVN3D.git)
+- 6DoF Object Pose Estimation via Differentiable Proxy Voting Loss [[Paper]](https://arxiv.org/abs/2002.03923)
+#### 2021
+- KDFNet: Learning Keypoint Distance Field for 6D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9636489)
+- FFB6D: A Full Flow Bidirectional Fusion Network for 6D Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/He_FFB6D_A_Full_Flow_Bidirectional_Fusion_Network_for_6D_Pose_CVPR_2021_paper.pdf) [[Code]](https://github.com/ethnhe/FFB6D.git)
+- ParametricNet: 6DoF Pose Estimation Network for Parametric Shapes in Stacked Scenarios [[Paper]](https://ieeexplore.ieee.org/abstract/document/9561181) [[Code]](https://github.com/lvwj19/ParametricNet)
+#### 2022
+- DGECN: A Depth-Guided Edge Convolutional Network for End-to-End 6D Pose Estimation [[Paper]]([https://ieeexplore.ieee.org/abstract/document/9636489](https://openaccess.thecvf.com/content/CVPR2022/papers/Cao_DGECN_A_Depth-Guided_Edge_Convolutional_Network_for_End-to-End_6D_Pose_CVPR_2022_paper.pdf))
+- Spatial feature mapping for 6DoF object pose estimation [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320322003168)
+- Vote from the Center: 6 DoF Pose Estimation in RGB-D Images by Radial Keypoint Voting [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20080-9_20) [[Code]](https://github.com/aaronWool/rcvpose)
+- MV6D: Multi-View 6D Pose Estimation on RGB-D Frames Using a Deep Point-wise Voting Network [[Paper]](https://ieeexplore.ieee.org/abstract/document/9982268)
+- Learning to Estimate Object Poses without Real Image Annotations [[Paper]](https://www.ijcai.org/proceedings/2022/0162.pdf)  [[Code]](https://github.com/zju3dv/pvnet-depth-sup)
+- Sim2Real Instance-Level Style Transfer for 6D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9981878)
+#### 2023
+- BDR6D: Bidirectional Deep Residual Fusion Network for 6D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10057042)
+- KVNet: An iterative 3D keypoints voting network for real-time 6-DoF object pose estimation [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S092523122300036X)
+- Deep Fusion Transformer Network with Weighted Vector-Wise Keypoints Voting for Robust 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhou_Deep_Fusion_Transformer_Network_with_Weighted_Vector-Wise_Keypoints_Voting_for_ICCV_2023_paper.pdf) [[Code]](https://github.com/junzastar/DFTr_Voting)
+#### 2024
+- 6D-Diff: A Keypoint Diffusion Framework for 6D Object Pose Estimation [[Paper]](https://arxiv.org/abs/2401.00029)
 
 </details>
 <details>
 <summary>Direct Voting Methods</summary>
   
 #### 2019
-
+- DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_DenseFusion_6D_Object_Pose_Estimation_by_Iterative_Dense_Fusion_CVPR_2019_paper.pdf) [[Code]](https://github.com/j96w/DenseFusion)
 #### 2020
+- A Novel Depth and Color Feature Fusion Framework for 6D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9115222)
+- PPR-Net++: Accurate 6-D Pose Estimation in Stacked Scenarios [[Paper]](https://ieeexplore.ieee.org/abstract/document/9537584) [[Code]](https://github.com/lvwj19/PPR-Net-plus)
+#### 2021
+- Robust 6D Object Pose Estimation by Learning RGB-D Features [[Paper]](https://ieeexplore.ieee.org/abstract/document/9197555) [[Code]](https://github.com/mentian/object-posenet)
+- PR-GCN: A Deep Graph Convolutional Network With Point Refinement for 6D Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_PR-GCN_A_Deep_Graph_Convolutional_Network_With_Point_Refinement_for_ICCV_2021_paper.pdf) [[Code]](https://github.com/sj-li/PR-GCN)
+- TemporalFusion: Temporal Motion Reasoning with Multi-Frame Fusion for 6D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9636583) [[Code]](https://github.com/mufengjun260/TemporalFusion21)
+#### 2022
+- ES6D: A Computation Efficient and Symmetry-Aware 6D Pose Regression Framework [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Mo_ES6D_A_Computation_Efficient_and_Symmetry-Aware_6D_Pose_Regression_Framework_CVPR_2022_paper.pdf) [[Code]](https://github.com/GANWANSHUI/ES6D)
+- SC6D: Symmetry-agnostic and Correspondence-free 6D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10044457) [[Code]](https://github.com/dingdingcai/SC6D-pose)
+#### 2023
+- A Depth Adaptive Feature Extraction and Dense Prediction Network for 6-D Pose Estimation in Robotic Grasping [[Paper]](https://ieeexplore.ieee.org/abstract/document/10197263)
+
+
 
 </details>
 
