@@ -156,10 +156,6 @@ Instance-level object pose estimation describes the task of estimating the pose 
 ### Regression-Based Methods
 <details>
 <summary>Geometry-Guided Regression Methods</summary>
-  
-#### 2019
-
-#### 2020
 
 </details>
 <details>
@@ -226,7 +222,28 @@ Research on category-level methods has garnered significant attention due to the
 <summary>Depth-Guided Geometry-Aware Methods</summary>
 
 #### 2020
-- Learning Canonical Shape Space for Category-Level 6D Object Pose and Size Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Learning_Canonical_Shape_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2020_paper.pdf)
+- Category-Level Articulated Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Category-Level_Articulated_Object_Pose_Estimation_CVPR_2020_paper.pdf) [[Code]](https://github.com/dragonlong/articulated-pose)
+#### 2021
+- FS-Net: Fast Shape-Based Network for Category-Level 6D Object Pose Estimation With Decoupled Rotation Mechanism [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_FS-Net_Fast_Shape-Based_Network_for_Category-Level_6D_Object_Pose_Estimation_CVPR_2021_paper.pdf) [[Code]](https://github.com/DC1991/FS_Net)
+- CAPTRA: CAtegory-Level Pose Tracking for Rigid and Articulated Objects From Point Clouds [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Weng_CAPTRA_CAtegory-Level_Pose_Tracking_for_Rigid_and_Articulated_Objects_From_ICCV_2021_paper.pdf) [[Code]](https://yijiaweng.github.io/CAPTRA/)
+- GarmentNets: Category-Level Pose Estimation for Garments via Canonical Space Shape Completion [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Chi_GarmentNets_Category-Level_Pose_Estimation_for_Garments_via_Canonical_Space_Shape_ICCV_2021_paper.pdf) [[Code]](https://github.com/real-stanford/garmentnets)
+- Leveraging SE(3) Equivariance for Self-supervised Category-Level Object Pose Estimation from Point Clouds [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/hash/81e74d678581a3bb7a720b019f4f1a93-Abstract.html) [[Code]](https://github.com/dragonlong/equi-pose)
+#### 2022
+- Self-Supervised Category-Level 6D Object Pose Estimation with Deep Implicit Shape Representation [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/20104) [[Code]](https://github.com/swords123/SSC-6D)
+- GPV-Pose: Category-Level Object Pose Estimation via Geometry-Guided Point-Wise Voting [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Di_GPV-Pose_Category-Level_Object_Pose_Estimation_via_Geometry-Guided_Point-Wise_Voting_CVPR_2022_paper.pdf) [[Code]](https://github.com/lolrudy/GPV_Pose)
+- CPPF: Towards Robust Category-Level 9D Pose Estimation in the Wild [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/You_CPPF_Towards_Robust_Category-Level_9D_Pose_Estimation_in_the_Wild_CVPR_2022_paper.pdf) [[Code]](https://github.com/qq456cvb/CPPF)
+- iCaps: Iterative Category-Level Object Pose and Shape Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9681221)
+- Category-Level 6D Object Pose Estimation With Structure Encoder and Reasoning Attention [[Paper]](https://ieeexplore.ieee.org/abstract/document/9761189)
+#### 2023
+- Self-Supervised Category-Level Articulated Object Pose Estimation with Part-Level SE(3) Equivariance [[Paper]](https://arxiv.org/abs/2302.14268) [[Code]](https://github.com/Meowuu7/equi-articulated-pose)
+- HS-Pose: Hybrid Scope Feature Extraction for Category-Level Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Zheng_HS-Pose_Hybrid_Scope_Feature_Extraction_for_Category-Level_Object_Pose_Estimation_CVPR_2023_paper.pdf) [[Code]](https://github.com/Lynne-Zheng-Linfang/HS-Pose)
+- Query6DoF: Learning Sparse Queries as Implicit Shape Prior for Category-Level 6DoF Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Query6DoF_Learning_Sparse_Queries_as_Implicit_Shape_Prior_for_Category-Level_ICCV_2023_paper.pdf) [[Code]](https://github.com/hustvl/Query6DoF)
+- SOCS: Semantically-Aware Object Coordinate Space for Category-Level 6D Object Pose Estimation under Large Shape Variations [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wan_SOCS_Semantically-Aware_Object_Coordinate_Space_for_Category-Level_6D_Object_Pose_ICCV_2023_paper.pdf) [[Code]](https://github.com/wanboyan/SOCS)
+- Generative Category-level Object Pose Estimation via Diffusion Models [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/ab59d149fc0c2c9039d3e3049f7914b1-Abstract-Conference.html) [[Code]](https://sites.google.com/view/genpose)
+- Category-Level Articulated Object 9D Pose Estimation via Reinforcement Learning [[Paper]](https://dl.acm.org/doi/abs/10.1145/3581783.3611852)
+#### 2024
+- Instance-Adaptive and Geometric-Aware Keypoint Learning for Category-Level 6D Object Pose Estimation [[Paper]](https://arxiv.org/abs/2403.19527) [[Code]](https://github.com/Leeiieeo/AG-Pose)
+- Category-Level Multi-Part Multi-Joint 3D Shape Assembly [[Paper]](https://arxiv.org/abs/2303.06163)
 </details>
 
 <details>
