@@ -311,8 +311,10 @@ Research on category-level methods has garnered significant attention due to the
 - Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Normalized_Object_Coordinate_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2019_paper.pdf) [[Code]](https://github.com/hughw19/NOCS_CVPR2019)
 #### 2020
 - Learning Canonical Shape Space for Category-Level 6D Object Pose and Size Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Learning_Canonical_Shape_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2020_paper.pdf)
+- 6-PACK: Category-level 6D Pose Tracker with Anchor-Based Keypoints [[Paper]](https://ieeexplore.ieee.org/abstract/document/9196679) [[Code]](https://sites.google.com/view/6packtracking)
 #### 2021
 - DualPoseNet: Category-Level 6D Object Pose and Size Estimation Using Dual Pose Network With Refined Learning of Pose Consistency [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Lin_DualPoseNet_Category-Level_6D_Object_Pose_and_Size_Estimation_Using_Dual_ICCV_2021_paper.pdf) [[Code]](https://github.com/Gorilla-Lab-SCUT/DualPoseNet)
+- BundleTrack: 6D Pose Tracking for Novel Objects without Instance or Category-Level 3D Models [[Paper]](https://ieeexplore.ieee.org/abstract/document/9635991) [[Code]](https://github.com/wenbowen123/BundleTrack)
 - Sparse Steerable Convolutions: An Efficient Learning of SE(3)-Equivariant Features for Estimation and Tracking of Object Poses in 3D Space [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/hash/8c1b6fa97c4288a4514365198566c6fa-Abstract.html) [[Code]](https://github.com/Gorilla-Lab-SCUT/SS-Conv)
 #### 2022
 - UDA-COPE: Unsupervised Domain Adaptation for Category-Level Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_UDA-COPE_Unsupervised_Domain_Adaptation_for_Category-Level_Object_Pose_Estimation_CVPR_2022_paper.pdf)
