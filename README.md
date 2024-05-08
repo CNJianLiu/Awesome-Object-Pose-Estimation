@@ -173,13 +173,19 @@ Research on category-level methods has garnered significant attention due to the
 <summary>Direct Regress Pose Methods</summary>
 
 #### 2022
+- SAR-Net: Shape Alignment and Recovery Network for Category-Level 6D Object Pose and Size Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Lin_SAR-Net_Shape_Alignment_and_Recovery_Network_for_Category-Level_6D_Object_CVPR_2022_paper.pdf) [[Code]](https://hetolin.github.io/SAR-Net/)
 - CenterSnap: Single-Shot Multi-Object 3D Shape Reconstruction and Categorical 6D Pose and Size Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9811799)
 - SSP-Pose: Symmetry-Aware Shape Prior Deformation for Direct Category-Level Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9981506)
 - RBP-Pose: Residual Bounding Box Projection for Category-Level Pose Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-19769-7_38) [[Code]](https://github.com/lolrudy/RBP_Pose)
 - CATRE: Iterative Point Clouds Alignment for Category-Level Object Pose Refinement [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20086-1_29) [[Code]](https://github.com/THU-DA-6D-Pose-Group/CATRE)
+- Category-Level 6D Object Pose and Size Estimation Using Self-supervised Deep Prior Deformation Networks [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20077-9_2) [[Code]](https://github.com/JiehongLin/Self-DPDN)
+- Category-Level 6D Object Pose Estimation in the Wild: A Semi-Supervised Learning Approach and A New Dataset [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/afe99e55be23b3523818da1fefa33494-Paper-Conference.pdf) [[Code]](https://oasisyang.github.io/semi-pose/)
 #### 2023
+- Self-Supervised Geometric Correspondence for Category-Level 6D Object Pose Estimation in the Wild [[Paper]](https://arxiv.org/abs/2210.07199) [[Code]](https://github.com/kywind/self-corr-pose)
+- i2c-net: Using Instance-Level Neural Networks for Monocular Category-Level 6D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10027166)
 - DTF-Net: Category-Level Pose Estimation and Shape Reconstruction via Deformable Template Field [[Paper]](https://dl.acm.org/doi/abs/10.1145/3581783.3612142)
 #### 2024
+- MH6D: Multi-Hypothesis Consistency Learning for Category-Level 6-D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10433529) [[Code]](https://github.com/CNJianLiu/MH6D)
 - GeoReF: Geometric Alignment Across Shape Variation for Category-level Object Pose Refinement [[Paper]](https://arxiv.org/abs/2404.11139) [[Code]](https://lynne-zheng-linfang.github.io/georef.github.io/)
 </details>
 
