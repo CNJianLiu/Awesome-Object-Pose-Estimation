@@ -335,8 +335,28 @@ Research on category-level methods has garnered significant attention due to the
 <summary>Others</summary>
 
 #### 2020
-- Learning Canonical Shape Space for Category-Level 6D Object Pose and Size Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Learning_Canonical_Shape_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2020_paper.pdf)
+- Category Level Object Pose Estimation via Neural Analysis-by-Synthesis [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-58574-7_9) [[Code]](https://github.com/xuchen-ethz/neural_object_fitting)
+#### 2021
+- Category-Level Metric Scale Object Shape and Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9531548)
+- iNeRF: Inverting Neural Radiance Fields for Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9636708)
+#### 2022
+- Single-Stage Keypoint-Based Category-Level Object Pose Estimation from an RGB Image [[Paper]](https://ieeexplore.ieee.org/abstract/document/9812299)
+- Keypoint-Based Category-Level Object Pose Tracking from an RGB Sequence with Uncertainty Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9811720)
+- A Visual Navigation Perspective for Category-Level Object Pose Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20068-7_8) [[Code]](https://github.com/wrld/visual_navigation_pose_estimation)
+- Robust Category-Level 6D Pose Estimation with Coarse-to-Fine Rendering of Neural Features [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20077-9_29)
+- TransNet: Category-Level Transparent Object Pose Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-25085-9_9)
+- Zero-Shot Category-Level Object Pose Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-19842-7_30) [[Code]](https://github.com/applied-ai-lab/zero-shot-pose)
+#### 2023
+- CatTrack: Single-Stage Category-Level 6D Object Pose Tracking via Convolution and Vision Transformer [[Paper]](https://ieeexplore.ieee.org/abstract/document/10149532)
+- Self-Supervised Category-Level 6D Object Pose Estimation With Optical Flow Consistency [[Paper]](https://ieeexplore.ieee.org/abstract/document/10063966)
+#### 2024
+- OV9D: Open-Vocabulary Category-Level 9D Object Pose and Size Estimation [[Paper]](https://arxiv.org/abs/2403.12396) [[Code]](https://ov9d.github.io/)
+- Zero123-6D: Zero-shot Novel View Synthesis for RGB Category-level 6D Pose Estimation [[Paper]](https://arxiv.org/abs/2403.14279)
+- CLIPose: Category-Level Object Pose Estimation with Pre-trained Vision-Language Knowledge [[Paper]](https://arxiv.org/abs/2402.15726)
 </details>
+
+
+
 
 ## Unseen
 Unseen object pose estimation methods can generalize to unseen objects without the need for retraining. We classify existing unseen methods into two categories: CAD model-based and manual reference view-based methods.
