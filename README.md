@@ -55,7 +55,8 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 ### Datasets for Unseen Methods
 <details>
 <summary>All Datasets</summary>
-  
+
+- BOP Challenge Datasets [[Paper]](https://arxiv.org/abs/2403.09799) [[Data]](https://bop.felk.cvut.cz/challenges/bop-challenge-2023/)
 - MOPED Dataset [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Park_LatentFusion_End-to-End_Differentiable_Reconstruction_and_Rendering_for_Unseen_Object_Pose_CVPR_2020_paper.pdf) [[Data]](https://latentfusion.github.io/)
 - GenMOP Dataset [[Paper]](https://link.springer.com/content/pdf/10.1007/978-3-031-19824-3_18) [[Data]](https://liuyuan-pal.github.io/Gen6D/)
 - OnePose Dataset [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_OnePose_One-Shot_Object_Pose_Estimation_Without_CAD_Models_CVPR_2022_paper.pdf) [[Data]](https://zju3dv.github.io/onepose/)
