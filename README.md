@@ -26,8 +26,8 @@ Chronological overview of the datasets for object pose estimation evaluation. No
   
 - BOP Challenge Datasets [[Paper]](https://arxiv.org/abs/2403.09799) [[Data]](https://bop.felk.cvut.cz/challenges/bop-challenge-2023/)
 - YCBInEOAT Dataset [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9341314) [[Data]](https://github.com/wenbowen123/iros20-6d-pose-tracking)
-- ClearPose: Large-scale Transparent Object Dataset and Benchmark [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20074-8_22) [[Data]](https://github.com/opipari/ClearPose)
-- MP6D: An RGB-D Dataset for Metal Parts’ 6D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9722997) [[Data]](https://github.com/yhan9848/MP6D)
+- ClearPose Dataset [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20074-8_22) [[Data]](https://github.com/opipari/ClearPose)
+- MP6D Dataset [[Paper]](https://ieeexplore.ieee.org/abstract/document/9722997) [[Data]](https://github.com/yhan9848/MP6D)
 </details>
 
 ### Datasets for Category-Level Methods
@@ -70,6 +70,9 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 
 ## Instance-Level
 Instance-level object pose estimation describes the task of estimating the pose of the objects that have been seen during the training of the model. We classify existing instance-level methods into four categories: correspondence-based, template-based, voting-based, and regression-based methods.
+
+<p align="center"> <img src="./resources/Fig3.jpg" width="100%"> </p>
+
 ### Correspondence-Based Methods
 <details>
 <summary>Sparse Correspondence Methods</summary>
