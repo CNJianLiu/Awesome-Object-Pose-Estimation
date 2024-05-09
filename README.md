@@ -69,7 +69,7 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 
 
 ## Instance-Level
-Instance-level object pose estimation describes the task of estimating the pose of the objects that have been seen during the training of the model. We classify existing instance-level methods into four categories: correspondence-based, template-based, voting-based, and regression-based methods.
+Instance-level object pose estimation describes the task of estimating the pose of the objects that have been seen during the training of the model. We classify existing instance-level methods into four categories: correspondence-based, template-based, voting-based, and regression-based methods. The illustration of these four categories is shown as follows
 
 <p align="center"> <img src="./resources/Fig3.jpg" width="100%"> </p>
 
@@ -266,7 +266,10 @@ Instance-level object pose estimation describes the task of estimating the pose 
 
 
 ## Category-Level
-Research on category-level methods has garnered significant attention due to their potential for generalizing to unseen objects within established categories. We classify them into two categories: shape prior-based and shape prior-free methods.
+Research on category-level methods has garnered significant attention due to their potential for generalizing to unseen objects within established categories. We classify them into two categories: shape prior-based and shape prior-free methods. The illustration of these two categories is shown as follows
+
+<p align="center"> <img src="./resources/Fig4.jpg" width="100%"> </p>
+
 ### Shape Prior-Based Methods
 <details>
 <summary>NOCS Shape Alignment Methods</summary>
@@ -397,7 +400,10 @@ Research on category-level methods has garnered significant attention due to the
 
 
 ## Unseen
-Unseen object pose estimation methods can generalize to unseen objects without the need for retraining. We classify existing unseen methods into two categories: CAD model-based and manual reference view-based methods.
+Unseen object pose estimation methods can generalize to unseen objects without the need for retraining. We classify existing unseen methods into two categories: CAD model-based and manual reference view-based methods. The illustration of these two categories is shown as follows
+
+<p align="center"> <img src="./resources/Fig5.jpg" width="100%"> </p>
+
 ### CAD Model-Based Methods 
 <details>
 <summary>Feature Matching-Based Methods</summary>
