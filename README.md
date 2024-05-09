@@ -531,19 +531,26 @@ Chronological overview of some representative applications of object pose estima
 <details>
 <summary>All Methods</summary>
 
-- 
+- Deep Learning for Spacecraft Pose Estimation from Photorealistic Rendering [[Paper]](https://ieeexplore.ieee.org/abstract/document/9197244)
+- Wide-Depth-Range 6D Object Pose Estimation in Space [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Wide-Depth-Range_6D_Object_Pose_Estimation_in_Space_CVPR_2021_paper.pdf) [[Code]](https://github.com/cvlab-epfl/wide-depth-range-pose)
+- CA-SpaceNet: Counterfactual Analysis for 6D Pose Estimation in Space [[Paper]](https://ieeexplore.ieee.org/abstract/document/9981172) [[Code]](https://github.com/Shunli-Wang/CA-SpaceNet)
+- 6D Object Pose Estimation from Approximate 3D Models for Orbital Robotics [[Paper]](https://ieeexplore.ieee.org/abstract/document/10341511)
 </details>
 
 ### Hand-Object Interaction
 <details>
 <summary>All Methods</summary>
 
-- 
+- Object Learning for 6D Pose Estimation and Grasping from RGB-D Videos of In-hand Manipulation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9635884)
+- Harmonious Feature Learning for Interactive Hand-Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Harmonious_Feature_Learning_for_Interactive_Hand-Object_Pose_Estimation_CVPR_2023_paper.pdf) [[Code]](https://github.com/lzfff12/HFL-Net)
+- Hierarchical Graph Neural Networks for Proprioceptive 6D Pose Estimation of In-hand Objects [[Paper]](https://ieeexplore.ieee.org/abstract/document/10161264)
+- HOISDF: Constraining 3D Hand-Object Pose Estimation with Global Signed Distance Fields [[Paper]](https://arxiv.org/abs/2402.17062) [[Code]](https://github.com/amathislab/HOISDF)
 </details>
 
 ### Autonomous Driving
 <details>
 <summary>All Methods</summary>
 
-- 
+- Deep Learning for 6D Pose Estimation of Objects — A Case Study for Autonomous Driving [[Paper]](https://www.sciencedirect.com/science/article/pii/S0957417423003391)
+- PanelPose: A 6D Pose Estimation of Highly-Variable Panel Object for Robotic Robust Cockpit Panel Inspection [[Paper]](https://ieeexplore.ieee.org/abstract/document/10342304)
 </details>
