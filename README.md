@@ -489,7 +489,16 @@ Chronological overview of some representative applications of object pose estima
 <details>
 <summary>Instance-Level Manipulation</summary>
 
-
+- Weakly supervised 6D pose estimation for robotic grasping [[Paper]](https://dl.acm.org/doi/abs/10.1145/3284398.3284408?casa_token=hiyOcJTmlJgAAAAA:1H5KRQ4FdxdPCJ2467Af29whBsnNmUp9zFvaxDVm6-aNMAanj0K_63MMHf5saonXvzVVnMqSyJ6WOg)   2018
+- Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects [[Paper]](https://arxiv.org/abs/1809.10790) [[Code]](https://github.com/NVlabs/Deep_Object_Pose)
+- Detect in RGB, Optimize in Edge: Accurate 6D Pose Estimation for Texture-less Industrial Parts [[Paper]](https://ieeexplore.ieee.org/abstract/document/8794330)
+- PPR-Net:Point-wise Pose Regression Network for Instance Segmentation and 6D Pose Estimation in Bin-picking Scenarios [[Paper]](https://ieeexplore.ieee.org/abstract/document/8967895)
+- MoreFusion: Multi-object Reasoning for 6D Pose Estimation from Volumetric Fusion [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wada_MoreFusion_Multi-object_Reasoning_for_6D_Pose_Estimation_from_Volumetric_Fusion_CVPR_2020_paper.pdf) [[Code]](https://github.com/wkentaro/morefusion)
+- GhostPose: Multi-view Pose Estimation of Transparent Objects for Robot Hand Grasping [[Paper]](https://ieeexplore.ieee.org/abstract/document/9636459)
+- Tomato harvesting robotic system based on Deep-ToMaToS: Deep learning network using transformation loss for 6D pose estimation of maturity classified tomatoes with side-stem [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0168169922006123)
+- 6D Robotic Assembly Based on RGB-only Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9982262) 2022 iros
+- Sim-to-Real 6D Object Pose Estimation via Iterative Self-training for Robotic Bin Picking [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-19842-7_31) 2022 eccv
+- AttentionVote: A coarse-to-fine voting network of anchor-free 6D pose estimation on point cloud for robotic bin-picking application [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0736584523001461) 
 </details>
 <details>
 <summary>Category-Level Manipulation</summary>
