@@ -191,8 +191,6 @@ Instance-level object pose estimation describes the task of estimating the pose 
 ### Regression-Based Methods
 <details>
 <summary>Geometry-Guided Regression Methods</summary>
-  
-#### 2019
 
 #### 2020
 - 6D Object Pose Regression via Supervised Learning on Point Clouds [[Paper]](https://ieeexplore.ieee.org/abstract/document/9197461)
