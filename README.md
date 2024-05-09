@@ -80,7 +80,7 @@ Instance-level object pose estimation describes the task of estimating the pose 
 #### 2017
 - BB8: A Scalable, Accurate, Robust to Partial Occlusion Method for Predicting the 3D Poses of Challenging Objects Without Using Depth
  [[Paper]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Rad_BB8_A_Scalable_ICCV_2017_paper.pdf)
-- 6-dof object pose from semantic keypoints [[Paper]](https://ieeexplore.ieee.org/abstract/document/7989233) [[Code]](https://github.com/geopavlakos/object3d)
+- 6-dof Object Pose from Semantic Keypoints [[Paper]](https://ieeexplore.ieee.org/abstract/document/7989233) [[Code]](https://github.com/geopavlakos/object3d)
 - Robust 3D Object Tracking from Monocular Images Using Stable Parts [[Paper]](https://ieeexplore.ieee.org/abstract/document/7934426)
 #### 2018
 - Real-Time Seamless Single Shot 6D Object Pose Prediction [[Paper]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Tekin_Real-Time_Seamless_Single_CVPR_2018_paper.pdf)
