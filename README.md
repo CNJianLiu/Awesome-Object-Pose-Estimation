@@ -26,6 +26,8 @@ Chronological overview of the datasets for object pose estimation evaluation. No
   
 - BOP Challenge Datasets [[Paper]](https://arxiv.org/abs/2403.09799) [[Data]](https://bop.felk.cvut.cz/challenges/bop-challenge-2023/)
 - YCBInEOAT Dataset [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9341314) [[Data]](https://github.com/wenbowen123/iros20-6d-pose-tracking)
+- ClearPose: Large-scale Transparent Object Dataset and Benchmark [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20074-8_22) [[Data]](https://github.com/opipari/ClearPose)
+- MP6D: An RGB-D Dataset for Metal Parts’ 6D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9722997) [[Data]](https://github.com/yhan9848/MP6D)
 </details>
 
 ### Datasets for Category-Level Methods
