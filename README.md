@@ -143,8 +143,6 @@ Instance-level object pose estimation describes the task of estimating the pose 
 <details>
 <summary>RGB-Based Template Methods</summary>
 
-#### 2017
-- SSD-6D: Making RGB-Based 3D Detection and 6D Pose Estimation Great Again [[Paper]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Kehl_SSD-6D_Making_RGB-Based_ICCV_2017_paper.pdf) [[Code]](https://github.com/wadimkehl/ssd-6d)
 #### 2018
 -  Implicit 3D Orientation Learning for 6D Object Detection from RGB Images [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Martin_Sundermeyer_Implicit_3D_Orientation_ECCV_2018_paper.pdf) [[Code]](https://github.com/DLR-RM/AugmentedAutoencoder)
 #### 2019
@@ -252,6 +250,7 @@ Instance-level object pose estimation describes the task of estimating the pose 
 <summary>Direct Regression Methods</summary>
   
 #### 2017
+- SSD-6D: Making RGB-Based 3D Detection and 6D Pose Estimation Great Again [[Paper]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Kehl_SSD-6D_Making_RGB-Based_ICCV_2017_paper.pdf) [[Code]](https://github.com/wadimkehl/ssd-6d)
 - Deep 6-DOF Tracking [[Paper]](https://ieeexplore.ieee.org/abstract/document/8007334) [[Code]](https://github.com/lvsn/deeptracking)
 - PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes [[Paper]](https://arxiv.org/abs/1711.00199) [[Code]](https://github.com/yuxng/PoseCNN)
 #### 2018
