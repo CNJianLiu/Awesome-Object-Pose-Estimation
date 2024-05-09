@@ -187,7 +187,7 @@ Instance-level object pose estimation describes the task of estimating the pose 
 #### 2020
 - 6D Object Pose Regression via Supervised Learning on Point Clouds [[Paper]](https://ieeexplore.ieee.org/abstract/document/9197461)
 - Neural Object Learning for 6D Pose Estimation Using a Few Cluttered Images [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-58548-8_38) [[Code]](https://github.com/kirumang/NOL)
-- G2L-Net: Global to Local Network for Real-Time 6D Pose Estimation With Embedding Vector Features [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_G2L-Net_Global_to_Local_Network_for_Real-Time_6D_Pose_Estimation_CVPR_2020_paper.pdf) [[Code]])(https://github.com/DC1991/G2L_Net)
+- G2L-Net: Global to Local Network for Real-Time 6D Pose Estimation With Embedding Vector Features [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_G2L-Net_Global_to_Local_Network_for_Real-Time_6D_Pose_Estimation_CVPR_2020_paper.pdf) [[Code]](https://github.com/DC1991/G2L_Net)
 - Single-Stage 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hu_Single-Stage_6D_Object_Pose_Estimation_CVPR_2020_paper.pdf) 
 #### 2021
 - 6D Object Pose Estimation with Pairwise Compatible Geometric Features [[Paper]](https://ieeexplore.ieee.org/abstract/document/9561404)
