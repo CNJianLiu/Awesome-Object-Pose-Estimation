@@ -129,6 +129,7 @@ Instance-level object pose estimation describes the task of estimating the pose 
 </details>
 <details>
 <summary>Point Cloud-Based Template Methods</summary>
+  
 #### 2022
 - DCL-Net: Deep Correspondence Learning Network for 6D Pose Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20077-9_22) [[Code]](https://github.com/Gorilla-Lab-SCUT/DCL-Net)
 #### 2023
