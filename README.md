@@ -125,19 +125,16 @@ Instance-level object pose estimation describes the task of estimating the pose 
 - Spatial Attention Improves Iterative 6D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9320380) [[Code]](https://github.com/stevsics/attention_6d_pose)
 #### 2021
 - PoseRBPF: A Rao–Blackwellized Particle Filter for 6-D Object Pose Tracking [[Paper]](https://ieeexplore.ieee.org/abstract/document/9363455) [[Code]](https://github.com/NVlabs/PoseRBPF)
-#### 2022
-#### 2023
-#### 2024
-
 
 </details>
 <details>
 <summary>Point Cloud-Based Template Methods</summary>
-  
-#### 2019
-
-#### 2020
-
+#### 2022
+- DCL-Net: Deep Correspondence Learning Network for 6D Pose Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20077-9_22) [[Code]](https://github.com/Gorilla-Lab-SCUT/DCL-Net)
+#### 2023
+- SE(3) Diffusion Model-based Point Cloud Registration for Robust 6D Object Pose Estimation [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/43069caa6776eac8bca4bfd74d4a476d-Paper-Conference.pdf) [[Code]](https://github.com/Jiang-HB/DiffusionReg)
+#### 2024
+- Match Normalization: Learning-Based Point Cloud Registration for 6D Object Pose Estimation in the Real World [[Paper]](https://ieeexplore.ieee.org/abstract/document/10402084) 
 </details>
 
 ### Voting-Based Methods
