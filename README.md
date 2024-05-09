@@ -109,10 +109,36 @@ Instance-level object pose estimation describes the task of estimating the pose 
 <details>
 <summary>Dense Correspondence Methods</summary>
   
+[[Paper]]() [[Code]]() 
 #### 2019
-
+- CDPN: Coordinates-based Disentangled Pose Network for Real-time RGB-based 6-DoF Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_CDPN_Coordinates-Based_Disentangled_Pose_Network_for_Real-Time_RGB-Based_6-DoF_Object_ICCV_2019_paper.pdf) [[Code]](https://github.com/LZGMatrix/CDPN_ICCV2019_ZhigangLi)
+- DPOD: 6D Pose Object Detector and Refiner [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zakharov_DPOD_6D_Pose_Object_Detector_and_Refiner_ICCV_2019_paper.pdf) [[Code]](https://github.com/zakharos/DPOD)
+- Pix2Pose: Pixel-Wise Coordinate Regression of Objects for 6D Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Park_Pix2Pose_Pixel-Wise_Coordinate_Regression_of_Objects_for_6D_Pose_Estimation_ICCV_2019_paper.pdf) [[Code]](https://github.com/kirumang/Pix2Pose) 
 #### 2020
-
+- Reconstruct Locally, Localize Globally: A Model Free Method for Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cai_Reconstruct_Locally_Localize_Globally_A_Model_Free_Method_for_Object_CVPR_2020_paper.pdf)
+- EPOS: Estimating 6D Pose of Objects with Symmetries [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hodan_EPOS_Estimating_6D_Pose_of_Objects_With_Symmetries_CVPR_2020_paper.pdf) [[Code]](https://github.com/thodan/epos) 
+#### 2021
+- GeoPose: Dense Reconstruction Guided 6D Object Pose Estimation With Geometric Consistency [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9565329) 
+- DPODv2: Dense Correspondence-Based 6 DoF Pose Estimation [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9565319)
+- Pseudo-Siamese Graph Matching Network for Textureless Objects’ 6-D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9398582) [[Code]](https://github.com/Ray0089/PSGMN)
+- SD-Pose: Semantic Decomposition for Cross-Domain 6D Object Pose Estimation [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/16298) 
+#### 2022
+- ZebraPose: Coarse to Fine Surface Encoding for 6DoF Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Su_ZebraPose_Coarse_To_Fine_Surface_Encoding_for_6DoF_Object_Pose_CVPR_2022_paper.pdf) [[Code]](https://github.com/suyz526/ZebraPose)
+- EPro-PnP: Generalized End-to-End Probabilistic Perspective-n-Points for Monocular Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_EPro-PnP_Generalized_End-to-End_Probabilistic_Perspective-N-Points_for_Monocular_Object_Pose_Estimation_CVPR_2022_paper.pdf) [[Code]](https://github.com/tjiiv-cprg/EPro-PnP)
+- BiCo-Net: Regress Globally, Match Locally for Robust 6D Pose Estimation [[Paper]](https://www.ijcai.org/proceedings/2022/0210.pdf) [[Code]](https://github.com/Gorilla-Lab-SCUT/BiCo-Net)
+- Neural Correspondence Field for Object Pose Estimation [[Paper]](https://arxiv.org/pdf/2208.00113) [[Code]](https://github.com/LinHuang17/NCF-code)
+- Perspective Flow Aggregation for Data-Limited 6D Object Pose Estimation [[Paper]](https://arxiv.org/pdf/2203.09836) [[Code]](https://github.com/cvlab-epfl/perspective-flow-aggregation)
+- SurfEmb: Dense and Continuous Correspondence Distributions for Object Pose Estimation with Learnt Surface Embeddings [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Haugaard_SurfEmb_Dense_and_Continuous_Correspondence_Distributions_for_Object_Pose_Estimation_CVPR_2022_paper.pdf) [[Code]](https://github.com/RasmusHaugaard/surfemb)
+- Coupled Iterative Refinement for 6D Multi-Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Lipson_Coupled_Iterative_Refinement_for_6D_Multi-Object_Pose_Estimation_CVPR_2022_paper.pdf) [[Code]](https://github.com/princeton-vl/Coupled-Iterative-Refinement) 
+#### 2023
+- CheckerPose: Progressive Dense Keypoint Localization for Object Pose Estimation with Graph Neural Network [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lian_CheckerPose_Progressive_Dense_Keypoint_Localization_for_Object_Pose_Estimation_with_ICCV_2023_paper.pdf) [[Code]](https://github.com/RuyiLian/CheckerPose)
+- Center-Based Decoupled Point Cloud Registration for 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Jiang_Center-Based_Decoupled_Point-cloud_Registration_for_6D_Object_Pose_Estimation_ICCV_2023_paper.pdf) [[Code]](https://github.com/Jiang-HB/CenterReg)
+- Geometric-aware dense matching network for 6D pose estimation of objects from RGB-D images [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320322007725) [[Code]](https://github.com/Ray0089/geometric-aware-dense-matching)
+- NeRF-Pose: A First-Reconstruct-Then-Regress Approach for Weakly-supervised 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/ICCV2023W/R6D/papers/Li_NeRF-Pose_A_First-Reconstruct-Then-Regress_Approach_for_Weakly-Supervised_6D_Object_Pose_Estimation_ICCVW_2023_paper.pdf)
+- Pseudo Flow Consistency for Self-Supervised 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Hai_Pseudo_Flow_Consistency_for_Self-Supervised_6D_Object_Pose_Estimation_ICCV_2023_paper.pdf) [[Code]](https://github.com/YangHai-1218/PseudoFlow) 
+#### 2024
+- HiPose: Hierarchical Binary Surface Encoding and Correspondence Pruning for RGB-D 6DoF Object Pose Estimation [[Paper]](https://arxiv.org/pdf/2311.12588) [[Code]](https://github.com/lyltc1/HiPose)
+- RNNPose: 6-DoF Object Pose Estimation Via Recurrent Correspondence Field Estimation and Pose Optimization [[Paper]](https://ieeexplore.ieee.org/document/10416758) [[Code]](https://github.com/DecaYale/RNNPose) 
 </details>
 
 ### Template-Based Methods
