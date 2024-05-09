@@ -454,6 +454,7 @@ Unseen object pose estimation methods can generalize to unseen objects without t
 
 <details>
 <summary>Template Matching-Based Methods</summary>
+  
 #### 2020
 - Multi-path Learning for Object Pose Estimation Across Domains [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sundermeyer_Multi-Path_Learning_for_Object_Pose_Estimation_Across_Domains_CVPR_2020_paper.pdf) [[Code]](https://github.com/DLR-RM/AugmentedAutoencoder/tree/multipath)
 #### 2021
