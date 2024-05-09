@@ -114,9 +114,21 @@ Instance-level object pose estimation describes the task of estimating the pose 
 <details>
 <summary>RGB-Based Template Methods</summary>
   
+#### 2018
+-  Implicit 3D Orientation Learning for 6D Object Detection from RGB Images [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Martin_Sundermeyer_Implicit_3D_Orientation_ECCV_2018_paper.pdf) [[Code]](https://github.com/DLR-RM/AugmentedAutoencoder)
 #### 2019
-
+- 6DoF Pose Estimation with Object Cutout based on a Deep Autoencoder [[Paper]](https://ieeexplore.ieee.org/abstract/document/8951932)
 #### 2020
+- 6D Object Pose Estimation Algorithm Using Preprocessing of Segmentation and Keypoint Extraction [[Paper]](https://ieeexplore.ieee.org/abstract/document/9128980)
+- Domain-Translated 3D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9206072)
+- Pose-guided Auto-Encoder and Feature-Based Refinement for 6-DoF Object Pose Regression [[Paper]](https://ieeexplore.ieee.org/abstract/document/9196953)
+- Spatial Attention Improves Iterative 6D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9320380) [[Code]](https://github.com/stevsics/attention_6d_pose)
+#### 2021
+- PoseRBPF: A Rao–Blackwellized Particle Filter for 6-D Object Pose Tracking [[Paper]](https://ieeexplore.ieee.org/abstract/document/9363455) [[Code]](https://github.com/NVlabs/PoseRBPF)
+#### 2022
+#### 2023
+#### 2024
+
 
 </details>
 <details>
