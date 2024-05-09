@@ -109,7 +109,6 @@ Instance-level object pose estimation describes the task of estimating the pose 
 <details>
 <summary>Dense Correspondence Methods</summary>
   
-[[Paper]]() [[Code]]() 
 #### 2019
 - CDPN: Coordinates-based Disentangled Pose Network for Real-time RGB-based 6-DoF Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_CDPN_Coordinates-Based_Disentangled_Pose_Network_for_Real-Time_RGB-Based_6-DoF_Object_ICCV_2019_paper.pdf) [[Code]](https://github.com/LZGMatrix/CDPN_ICCV2019_ZhigangLi)
 - DPOD: 6D Pose Object Detector and Refiner [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zakharov_DPOD_6D_Pose_Object_Detector_and_Refiner_ICCV_2019_paper.pdf) [[Code]](https://github.com/zakharos/DPOD)
@@ -454,7 +453,12 @@ Unseen object pose estimation methods can generalize to unseen objects without t
 
 <details>
 <summary>Template Matching-Based Methods</summary>
-  
+
+[[Paper]]() [[Code]]() 
+#### 2015-2019
+- Learning Descriptors for Object Recognition and 3D Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_cvpr_2015/papers/Wohlhart_Learning_Descriptors_for_2015_CVPR_paper.pdf) 
+- Pose Guided RGBD Feature Learning for 3D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Balntas_Pose_Guided_RGBD_ICCV_2017_paper.pdf)
+- Pose Estimation for Objects with Rotational Symmetry [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8594282) [[Code]](https://github.com/enriccorona/PoseSym/) 
 #### 2020
 - Multi-path Learning for Object Pose Estimation Across Domains [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sundermeyer_Multi-Path_Learning_for_Object_Pose_Estimation_Across_Domains_CVPR_2020_paper.pdf) [[Code]](https://github.com/DLR-RM/AugmentedAutoencoder/tree/multipath)
 #### 2021
@@ -508,7 +512,8 @@ Unseen object pose estimation methods can generalize to unseen objects without t
 - PIZZA: A Powerful Image-only Zero-Shot Zero-CAD Approach to 6 DoF Tracking [[Paper]](https://arxiv.org/pdf/2209.07589) [[Code]](https://github.com/nv-nguyen/pizza)
 - Gen6D: Generalizable Model-Free 6-DoF Object Pose Estimation from RGB Images [[Paper]](https://link.springer.com/content/pdf/10.1007/978-3-031-19824-3_18) [[Code]](https://github.com/liuyuan-pal/Gen6D)
 #### 2023
-- SA6D: Self-Adaptive Few-Shot 6D Pose Estimator for Novel and Occluded Objects [[Paper]](https://arxiv.org/pdf/2308.16528) 
+- SA6D: Self-Adaptive Few-Shot 6D Pose Estimator for Novel and Occluded Objects [[Paper]](https://arxiv.org/pdf/2308.16528)
+- BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wen_BundleSDF_Neural_6-DoF_Tracking_and_3D_Reconstruction_of_Unknown_Objects_CVPR_2023_paper.pdf) [[Code]](https://github.com/NVlabs/BundleSDF)
 #### 2024
 - NOPE: Novel Object Pose Estimation from a Single Image [[Paper]](https://arxiv.org/pdf/2303.13612) [[Code]](https://github.com/nv-nguyen/nope)
 - LocPoseNet: Robust Location Prior for Unseen Object Pose Estimation [[Paper]](https://arxiv.org/pdf/2211.16290) [[Code]](https://github.com/sailor-z/LocPoseNet)
