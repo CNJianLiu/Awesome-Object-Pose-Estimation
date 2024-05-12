@@ -101,9 +101,11 @@ Instance-level object pose estimation describes the task of estimating the pose 
 - Semi-Supervised 3D Hand-Object Poses Estimation With Interactions in Time [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Semi-Supervised_3D_Hand-Object_Poses_Estimation_With_Interactions_in_Time_CVPR_2021_paper.pdf) [[Code]](https://stevenlsw.github.io/Semi-Hand-Object)
 - Keypoint-Graph-Driven Learning Framework for Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Keypoint-Graph-Driven_Learning_Framework_for_Object_Pose_Estimation_CVPR_2021_paper.pdf)
 - PyraPose: Feature Pyramids for Fast and Accurate Object Pose Estimation under Domain Shift [[Paper]](https://ieeexplore.ieee.org/abstract/document/9562108)
+- GhostPose: Multi-view Pose Estimation of Transparent Objects for Robot Hand Grasping [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9636459)
 #### 2023
 - Knowledge Distillation for 6D Pose Estimation by Aligning Distributions of Local Predictions [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Guo_Knowledge_Distillation_for_6D_Pose_Estimation_by_Aligning_Distributions_of_CVPR_2023_paper.pdf)
 - Linear-Covariance Loss for End-to-End Learning of 6D Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_Linear-Covariance_Loss_for_End-to-End_Learning_of_6D_Pose_Estimation_ICCV_2023_paper.pdf)
+- CheckerPose: Progressive Dense Keypoint Localization for Object Pose Estimation with Graph Neural Network [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lian_CheckerPose_Progressive_Dense_Keypoint_Localization_for_Object_Pose_Estimation_with_ICCV_2023_paper.pdf) [[Code]](https://github.com/RuyiLian/CheckerPose)
 
 </details>
 <details>
