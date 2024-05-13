@@ -225,7 +225,6 @@ Instance-level object pose estimation describes the task of estimating the pose 
 
 #### 2020
 - 6D Object Pose Regression via Supervised Learning on Point Clouds [[Paper]](https://ieeexplore.ieee.org/abstract/document/9197461)
-- Neural Object Learning for 6D Pose Estimation Using a Few Cluttered Images [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-58548-8_38) [[Code]](https://github.com/kirumang/NOL)
 - G2L-Net: Global to Local Network for Real-Time 6D Pose Estimation With Embedding Vector Features [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_G2L-Net_Global_to_Local_Network_for_Real-Time_6D_Pose_Estimation_CVPR_2020_paper.pdf) [[Code]](https://github.com/DC1991/G2L_Net)
 - Single-Stage 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hu_Single-Stage_6D_Object_Pose_Estimation_CVPR_2020_paper.pdf) 
 #### 2021
@@ -242,7 +241,6 @@ Instance-level object pose estimation describes the task of estimating the pose 
 - Trans6D: Transformer-Based 6D Object Pose Estimation and Refinement [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-25085-9_7)
 #### 2023
 - SMOC-Net: Leveraging Camera Pose for Self-Supervised Monocular Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Tan_SMOC-Net_Leveraging_Camera_Pose_for_Self-Supervised_Monocular_Object_Pose_Estimation_CVPR_2023_paper.pdf)
-- TexPose: Neural Texture Learning for Self-Supervised 6D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_TexPose_Neural_Texture_Learning_for_Self-Supervised_6D_Object_Pose_Estimation_CVPR_2023_paper.pdf) [[Code]](https://github.com/HanzhiC/TexPose)
 - NVR-Net: Normal Vector Guided Regression Network for Disentangled 6D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10168178) 
 #### 2024
 - PA-Pose: Partial point cloud fusion based on reliable alignment for 6D pose tracking [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320323008488)
