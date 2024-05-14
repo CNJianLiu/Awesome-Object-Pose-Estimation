@@ -597,3 +597,17 @@ Chronological overview of some representative applications of object pose estima
 - Deep Learning for 6D Pose Estimation of Objects — A Case Study for Autonomous Driving [[Paper]](https://www.sciencedirect.com/science/article/pii/S0957417423003391)
 - PanelPose: A 6D Pose Estimation of Highly-Variable Panel Object for Robotic Robust Cockpit Panel Inspection [[Paper]](https://ieeexplore.ieee.org/abstract/document/10342304)
 </details>
+
+## Citation
+If you find the paper useful, please cite our paper.
+```latex
+@article{liu2024survey,
+  title={Deep Learning-Based Object Pose Estimation: A Comprehensive Survey},
+  author={Liu, Jian and Sun, Wei and Yang, Hui and Zeng, Zhiwen and Liu, Chongpei and Zheng, Jin and Liu, Xingyu and Rahmani, Hossein and Sebe, Nicu and Mian, Ajmal},  
+  journal={arXiv preprint arXiv:2405.07801},
+  year={2024}
+}
+```
+
+## Contact
+Due to the one-sided nature of our knowledge, if you find any problems or have any suggestions, please feel free to post an issue or contact me at [jianliu666.cn@gmail.com](mailto:jianliu666.cn@gmail.com)
