@@ -20,7 +20,7 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 
 <p align="center"> <img src="./resources/datasets.png" width="100%"> </p>
 
-### Datasets for Instance-Level Methods
+### 2.1 Datasets for Instance-Level Methods
 <details>
 <summary>All Datasets</summary>
   
