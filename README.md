@@ -10,17 +10,17 @@ Jin Zheng, [Xingyu Liu](https://lliu-xingyu.github.io/), [Hossein Rahmani](https
 
 </div>
 
-## 1. Introduction
+## Introduction
 
 This is the official repository of [''Deep Learning-Based Object Pose Estimation: A Comprehensive Survey''](https://arxiv.org/pdf/2405.07801). Specifically, we first introduce the [datasets](#datasets) used for object pose estimation. Then, we review the [instance-level](#instance-level), [category-level](#category-level), and [unseen](#unseen) methods, respectively. Finally, we summarize the common [applications](#applications) of this task. The taxonomy of this survey is shown as follows
 <p align="center"> <img src="./resources/taxonomy.png" width="100%"> </p>
 
-## 2. Datasets
+## Datasets
 Chronological overview of the datasets for object pose estimation evaluation. Notably, the pink arrows represent the BOP Challenge datasets, which can be used to evaluate both instance-level and unseen object methods. The red references represent the datasets of articulated objects.
 
 <p align="center"> <img src="./resources/datasets.png" width="100%"> </p>
 
-### 2.1 Datasets for Instance-Level Methods
+### Datasets for Instance-Level Methods
 <details>
 <summary>All Datasets</summary>
   
@@ -32,7 +32,7 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 
 ### 2.2 Datasets for Category-Level Methods
 <details>
-<summary>Rigid Objects Datasets</summary>
+<summary>2.2.1 Rigid Objects Datasets</summary>
   
 - CAMERA25 Dataset [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Normalized_Object_Coordinate_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2019_paper.pdf) [[Data]](https://github.com/hughw19/NOCS_CVPR2019)
 - REAL275 Dataset [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Normalized_Object_Coordinate_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2019_paper.pdf) [[Data]](https://github.com/hughw19/NOCS_CVPR2019)
@@ -45,7 +45,7 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 </details>
 
 <details>
-<summary>Articulated Objects Datasets</summary>
+<summary>2.2.2 Articulated Objects Datasets</summary>
   
 - BMVC Dataset [[Paper]](https://www.researchgate.net/profile/Frank-Michel/publication/292033202_Pose_Estimation_of_Kinematic_Chain_Instances_via_Object_Coordinate_Regression/links/56caf40b08aee3cee5414a70/Pose-Estimation-of-Kinematic-Chain-Instances-via-Object-Coordinate-Regression.pdf) [[Data]](https://gaminghardware-guide.de/gaminghardware-guide-de-hat-cvlab-dresden-de-uebernommen/research/scene-understanding/pose-estimation/#BMVC15)
 - RBO Dataset [[Paper]](https://journals.sagepub.com/doi/full/10.1177/0278364919844314) [[Data]](https://zenodo.org/records/1036660)
@@ -68,7 +68,7 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 
 
 
-## 3. Instance-Level
+## Instance-Level
 Instance-level object pose estimation describes the task of estimating the pose of the objects that have been seen during the training of the model. We classify existing instance-level methods into four categories: correspondence-based, template-based, voting-based, and regression-based methods. The illustration of these four categories is shown as follows
 
 <p align="center"> <img src="./resources/Fig3.jpg" width="100%"> </p>
@@ -290,7 +290,7 @@ Instance-level object pose estimation describes the task of estimating the pose 
 
 
 
-## 4. Category-Level
+## Category-Level
 Research on category-level methods has garnered significant attention due to their potential for generalizing to unseen objects within established categories. We classify them into two categories: shape prior-based and shape prior-free methods. The illustration of these two categories is shown as follows
 
 <p align="center"> <img src="./resources/Fig4.jpg" width="100%"> </p>
@@ -424,7 +424,7 @@ Research on category-level methods has garnered significant attention due to the
 
 
 
-## 5. Unseen
+## Unseen
 Unseen object pose estimation methods can generalize to unseen objects without the need for retraining. We classify existing unseen methods into two categories: CAD model-based and manual reference view-based methods. The illustration of these two categories is shown as follows
 
 <p align="center"> <img src="./resources/Fig5.jpg" width="100%"> </p>
@@ -520,7 +520,7 @@ Unseen object pose estimation methods can generalize to unseen objects without t
 </details>
 
 
-## 6. Applications
+## Applications
 Chronological overview of some representative applications of object pose estimation methods. The black references, red references, and orange references represent the application of instance-level, category-level, and unseen methods, respectively.
 
 <p align="center"> <img src="./resources/applications.png" width="100%"> </p>
