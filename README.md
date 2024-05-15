@@ -10,17 +10,17 @@ Jin Zheng, [Xingyu Liu](https://lliu-xingyu.github.io/), [Hossein Rahmani](https
 
 </div>
 
-## Introduction
+## 1. Introduction
 
 This is the official repository of [''Deep Learning-Based Object Pose Estimation: A Comprehensive Survey''](https://arxiv.org/pdf/2405.07801). Specifically, we first introduce the [datasets](#datasets) used for object pose estimation. Then, we review the [instance-level](#instance-level), [category-level](#category-level), and [unseen](#unseen) methods, respectively. Finally, we summarize the common [applications](#applications) of this task. The taxonomy of this survey is shown as follows
 <p align="center"> <img src="./resources/taxonomy.png" width="100%"> </p>
 
-## Datasets
+## 2. Datasets
 Chronological overview of the datasets for object pose estimation evaluation. Notably, the pink arrows represent the BOP Challenge datasets, which can be used to evaluate both instance-level and unseen object methods. The red references represent the datasets of articulated objects.
 
 <p align="center"> <img src="./resources/datasets.png" width="100%"> </p>
 
-### Datasets for Instance-Level Methods
+### 2.1 Datasets for Instance-Level Methods
 <details>
 <summary>All Datasets</summary>
   
@@ -30,7 +30,7 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 - MP6D Dataset [[Paper]](https://ieeexplore.ieee.org/abstract/document/9722997) [[Data]](https://github.com/yhan9848/MP6D)
 </details>
 
-### Datasets for Category-Level Methods
+### 2.2 Datasets for Category-Level Methods
 <details>
 <summary>Rigid Objects Datasets</summary>
   
@@ -54,7 +54,7 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 - ContactArt Dataset [[Paper]](https://arxiv.org/pdf/2305.01618) [[Data]](https://zehaozhu.github.io/ContactArt/)
 </details>
 
-### Datasets for Unseen Methods
+### 2.3 Datasets for Unseen Methods
 <details>
 <summary>All Datasets</summary>
 
@@ -68,14 +68,14 @@ Chronological overview of the datasets for object pose estimation evaluation. No
 
 
 
-## Instance-Level
+## 3. Instance-Level
 Instance-level object pose estimation describes the task of estimating the pose of the objects that have been seen during the training of the model. We classify existing instance-level methods into four categories: correspondence-based, template-based, voting-based, and regression-based methods. The illustration of these four categories is shown as follows
 
 <p align="center"> <img src="./resources/Fig3.jpg" width="100%"> </p>
 
-### Correspondence-Based Methods
+### 3.1 Correspondence-Based Methods
 <details>
-<summary>Sparse Correspondence Methods</summary>
+<summary>3.1.1 Sparse Correspondence Methods</summary>
 
 #### 2017
 - BB8: A Scalable, Accurate, Robust to Partial Occlusion Method for Predicting the 3D Poses of Challenging Objects Without Using Depth
@@ -109,7 +109,7 @@ Instance-level object pose estimation describes the task of estimating the pose 
 
 </details>
 <details>
-<summary>Dense Correspondence Methods</summary>
+<summary>3.1.2 Dense Correspondence Methods</summary>
   
 #### 2019
 - CDPN: Coordinates-based Disentangled Pose Network for Real-time RGB-based 6-DoF Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_CDPN_Coordinates-Based_Disentangled_Pose_Network_for_Real-Time_RGB-Based_6-DoF_Object_ICCV_2019_paper.pdf) [[Code]](https://github.com/LZGMatrix/CDPN_ICCV2019_ZhigangLi)
@@ -141,9 +141,9 @@ Instance-level object pose estimation describes the task of estimating the pose 
 - RNNPose: 6-DoF Object Pose Estimation Via Recurrent Correspondence Field Estimation and Pose Optimization [[Paper]](https://ieeexplore.ieee.org/document/10416758) [[Code]](https://github.com/DecaYale/RNNPose) 
 </details>
 
-### Template-Based Methods
+### 3.2 Template-Based Methods
 <details>
-<summary>RGB-Based Template Methods</summary>
+<summary>3.2.1 RGB-Based Template Methods</summary>
 
 #### 2018
 -  Implicit 3D Orientation Learning for 6D Object Detection from RGB Images [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Martin_Sundermeyer_Implicit_3D_Orientation_ECCV_2018_paper.pdf) [[Code]](https://github.com/DLR-RM/AugmentedAutoencoder)
@@ -159,7 +159,7 @@ Instance-level object pose estimation describes the task of estimating the pose 
 
 </details>
 <details>
-<summary>Point Cloud-Based Template Methods</summary>
+<summary>3.2.2 Point Cloud-Based Template Methods</summary>
   
 #### 2022
 - DCL-Net: Deep Correspondence Learning Network for 6D Pose Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20077-9_22) [[Code]](https://github.com/Gorilla-Lab-SCUT/DCL-Net)
@@ -169,9 +169,9 @@ Instance-level object pose estimation describes the task of estimating the pose 
 - Match Normalization: Learning-Based Point Cloud Registration for 6D Object Pose Estimation in the Real World [[Paper]](https://ieeexplore.ieee.org/abstract/document/10402084) 
 </details>
 
-### Voting-Based Methods
+### 3.3 Voting-Based Methods
 <details>
-<summary>Indirect Voting Methods</summary>
+<summary>3.3.1 Indirect Voting Methods</summary>
   
 #### 2019
 - PVNet: Pixel-Wise Voting Network for 6DoF Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Peng_PVNet_Pixel-Wise_Voting_Network_for_6DoF_Pose_Estimation_CVPR_2019_paper.pdf) [[Code]](https://github.com/zju3dv/pvnet)
@@ -198,7 +198,7 @@ Instance-level object pose estimation describes the task of estimating the pose 
 
 </details>
 <details>
-<summary>Direct Voting Methods</summary>
+<summary>3.3.2 Direct Voting Methods</summary>
   
 #### 2019
 - DenseFusion: 6D Object Pose Estimation by Iterative Dense Fusion [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_DenseFusion_6D_Object_Pose_Estimation_by_Iterative_Dense_Fusion_CVPR_2019_paper.pdf) [[Code]](https://github.com/j96w/DenseFusion)
@@ -219,9 +219,9 @@ Instance-level object pose estimation describes the task of estimating the pose 
 
 </details>
 
-### Regression-Based Methods
+### 3.4 Regression-Based Methods
 <details>
-<summary>Geometry-Guided Regression Methods</summary>
+<summary>3.4.1 Geometry-Guided Regression Methods</summary>
 
 #### 2020
 - 6D Object Pose Regression via Supervised Learning on Point Clouds [[Paper]](https://ieeexplore.ieee.org/abstract/document/9197461)
@@ -247,7 +247,7 @@ Instance-level object pose estimation describes the task of estimating the pose 
 - HFT6D: Multimodal 6D object pose estimation based on hierarchical feature transformer [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0263224123014124) 
 </details>
 <details>
-<summary>Direct Regression Methods</summary>
+<summary>3.4.2 Direct Regression Methods</summary>
   
 #### 2017
 - SSD-6D: Making RGB-Based 3D Detection and 6D Pose Estimation Great Again [[Paper]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Kehl_SSD-6D_Making_RGB-Based_ICCV_2017_paper.pdf) [[Code]](https://github.com/wadimkehl/ssd-6d)
@@ -290,14 +290,14 @@ Instance-level object pose estimation describes the task of estimating the pose 
 
 
 
-## Category-Level
+## 4. Category-Level
 Research on category-level methods has garnered significant attention due to their potential for generalizing to unseen objects within established categories. We classify them into two categories: shape prior-based and shape prior-free methods. The illustration of these two categories is shown as follows
 
 <p align="center"> <img src="./resources/Fig4.jpg" width="100%"> </p>
 
-### Shape Prior-Based Methods
+### 4.1 Shape Prior-Based Methods
 <details>
-<summary>NOCS Shape Alignment Methods</summary>
+<summary>4.1.1 NOCS Shape Alignment Methods</summary>
   
 #### 2020
 - Shape Prior Deformation for Categorical 6D Object Pose and Size Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-58589-1_32) [[Code]](https://github.com/mentian/object-deformnet)
@@ -322,7 +322,7 @@ Research on category-level methods has garnered significant attention due to the
 </details>
 
 <details>
-<summary>Direct Regress Pose Methods</summary>
+<summary>4.1.2 Direct Regress Pose Methods</summary>
 
 #### 2022
 - SAR-Net: Shape Alignment and Recovery Network for Category-Level 6D Object Pose and Size Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Lin_SAR-Net_Shape_Alignment_and_Recovery_Network_for_Category-Level_6D_Object_CVPR_2022_paper.pdf) [[Code]](https://hetolin.github.io/SAR-Net/)
@@ -341,9 +341,9 @@ Research on category-level methods has garnered significant attention due to the
 - GeoReF: Geometric Alignment Across Shape Variation for Category-level Object Pose Refinement [[Paper]](https://arxiv.org/abs/2404.11139) [[Code]](https://lynne-zheng-linfang.github.io/georef.github.io/)
 </details>
 
-### Shape Prior-Free Methods
+### 4.2 Shape Prior-Free Methods
 <details>
-<summary>Depth-Guided Geometry-Aware Methods</summary>
+<summary>4.2.1 Depth-Guided Geometry-Aware Methods</summary>
 
 #### 2020
 - Category-Level Articulated Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Category-Level_Articulated_Object_Pose_Estimation_CVPR_2020_paper.pdf) [[Code]](https://github.com/dragonlong/articulated-pose)
@@ -371,7 +371,7 @@ Research on category-level methods has garnered significant attention due to the
 </details>
 
 <details>
-<summary>RGBD-Guided Semantic and Geometry Fusion Methods</summary>
+<summary>4.2.2 RGBD-Guided Semantic and Geometry Fusion Methods</summary>
   
 #### 2019
 - Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Normalized_Object_Coordinate_Space_for_Category-Level_6D_Object_Pose_and_CVPR_2019_paper.pdf) [[Code]](https://github.com/hughw19/NOCS_CVPR2019)
@@ -398,7 +398,7 @@ Research on category-level methods has garnered significant attention due to the
 </details>
 
 <details>
-<summary>Others</summary>
+<summary>4.2.3 Others</summary>
 
 #### 2020
 - Category Level Object Pose Estimation via Neural Analysis-by-Synthesis [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-58574-7_9) [[Code]](https://github.com/xuchen-ethz/neural_object_fitting)
@@ -424,14 +424,14 @@ Research on category-level methods has garnered significant attention due to the
 
 
 
-## Unseen
+## 5. Unseen
 Unseen object pose estimation methods can generalize to unseen objects without the need for retraining. We classify existing unseen methods into two categories: CAD model-based and manual reference view-based methods. The illustration of these two categories is shown as follows
 
 <p align="center"> <img src="./resources/Fig5.jpg" width="100%"> </p>
 
-### CAD Model-Based Methods 
+### 5.1 CAD Model-Based Methods 
 <details>
-<summary>Feature Matching-Based Methods</summary>
+<summary>5.1.1 Feature Matching-Based Methods</summary>
 
 #### 2019
 - CorNet: Generic 3D Corners for 6D Pose Estimation of New Objects without Retraining [[Paper]](https://openaccess.thecvf.com/content_ICCVW_2019/papers/R6D/Pitteri_CorNet_Generic_3D_Corners_for_6D_Pose_Estimation_of_New_ICCVW_2019_paper.pdf)  
@@ -450,9 +450,8 @@ Unseen object pose estimation methods can generalize to unseen objects without t
 </details>
 
 <details>
-<summary>Template Matching-Based Methods</summary>
+<summary>5.1.2 Template Matching-Based Methods</summary>
 
-[[Paper]]() [[Code]]() 
 #### 2015-2019
 - Learning Descriptors for Object Recognition and 3D Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_cvpr_2015/papers/Wohlhart_Learning_Descriptors_for_2015_CVPR_paper.pdf) 
 - Pose Guided RGBD Feature Learning for 3D Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Balntas_Pose_Guided_RGBD_ICCV_2017_paper.pdf)
@@ -483,9 +482,9 @@ Unseen object pose estimation methods can generalize to unseen objects without t
 </details>
 
 
-### Manual Reference View-Based Methods
+### 5.2 Manual Reference View-Based Methods
 <details>
-<summary>Feature Matching-Based Methods</summary>
+<summary>5.2.1 Feature Matching-Based Methods</summary>
   
 #### 2021
 - Unseen Object Pose Estimation via Registration [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9517491) 
@@ -502,7 +501,7 @@ Unseen object pose estimation methods can generalize to unseen objects without t
 </details>
 
 <details>
-<summary>Template Matching-Based Methods</summary>
+<summary>5.2.2 Template Matching-Based Methods</summary>
   
 #### 2020 
 - LatentFusion: End-to-End Differentiable Reconstruction and Rendering for Unseen Object Pose Estimation[[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Park_LatentFusion_End-to-End_Differentiable_Reconstruction_and_Rendering_for_Unseen_Object_Pose_CVPR_2020_paper.pdf) [[Code]](https://github.com/NVlabs/latentfusion)
@@ -521,14 +520,14 @@ Unseen object pose estimation methods can generalize to unseen objects without t
 </details>
 
 
-## Applications
+## 6. Applications
 Chronological overview of some representative applications of object pose estimation methods. The black references, red references, and orange references represent the application of instance-level, category-level, and unseen methods, respectively.
 
 <p align="center"> <img src="./resources/applications.png" width="100%"> </p>
 
-### Robotic Manipulation
+### 6.1 Robotic Manipulation
 <details>
-<summary>Instance-Level Manipulation</summary>
+<summary>6.1.1 Instance-Level Manipulation</summary>
 
 - Weakly supervised 6D pose estimation for robotic grasping [[Paper]](https://dl.acm.org/doi/abs/10.1145/3284398.3284408?casa_token=hiyOcJTmlJgAAAAA:1H5KRQ4FdxdPCJ2467Af29whBsnNmUp9zFvaxDVm6-aNMAanj0K_63MMHf5saonXvzVVnMqSyJ6WOg) 
 - Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects [[Paper]](https://arxiv.org/abs/1809.10790) [[Code]](https://github.com/NVlabs/Deep_Object_Pose)
@@ -542,7 +541,7 @@ Chronological overview of some representative applications of object pose estima
 - AttentionVote: A coarse-to-fine voting network of anchor-free 6D pose estimation on point cloud for robotic bin-picking application [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0736584523001461) 
 </details>
 <details>
-<summary>Category-Level Manipulation</summary>
+<summary>6.1.2 Category-Level Manipulation</summary>
 
 - Robotic Continuous Grasping System by Shape Transformer-Guided Multiobject Category-Level 6-D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10043016) [[Code]](https://github.com/CNJianLiu/6D-CLGrasp)
 - Fine Segmentation and Difference-Aware Shape Adjustment for Category-Level 6DoF Object Pose Estimation [[Paper]](https://link.springer.com/article/10.1007/s10489-023-04688-0)
@@ -552,14 +551,14 @@ Chronological overview of some representative applications of object pose estima
 - Domain-Generalized Robotic Picking via Contrastive Learning-Based 6-D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10475688)
 </details>
 <details>
-<summary>Unseen Object Manipulation</summary>
+<summary>6.1.3 Unseen Object Manipulation</summary>
 
 - ZePHyR: Zero-shot Pose Hypothesis Rating [[Paper]](https://arxiv.org/pdf/2104.13526) [[Code]](https://github.com/r-pad/zephyr)
 - MegaPose: 6D Pose Estimation of Novel Objects via Render & Compare [[Paper]](https://arxiv.org/pdf/2212.06870) [[Code]](https://github.com/megapose6d/megapose6d)
 - FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects [[Paper]](https://arxiv.org/pdf/2312.08344) [[Code]](https://github.com/NVlabs/FoundationPose)
 </details>
 
-### Augmented Reality/Virtual Reality
+### 6.2 Augmented Reality/Virtual Reality
 <details>
 <summary>All Methods</summary>
 
@@ -570,7 +569,7 @@ Chronological overview of some representative applications of object pose estima
 - FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects [[Paper]](https://arxiv.org/pdf/2312.08344) [[Code]](https://github.com/NVlabs/FoundationPose)
 </details>
 
-### Aerospace
+### 6.3 Aerospace
 <details>
 <summary>All Methods</summary>
 
@@ -580,7 +579,7 @@ Chronological overview of some representative applications of object pose estima
 - 6D Object Pose Estimation from Approximate 3D Models for Orbital Robotics [[Paper]](https://ieeexplore.ieee.org/abstract/document/10341511)
 </details>
 
-### Hand-Object Interaction
+### 6.4 Hand-Object Interaction
 <details>
 <summary>All Methods</summary>
 
@@ -590,7 +589,7 @@ Chronological overview of some representative applications of object pose estima
 - HOISDF: Constraining 3D Hand-Object Pose Estimation with Global Signed Distance Fields [[Paper]](https://arxiv.org/abs/2402.17062) [[Code]](https://github.com/amathislab/HOISDF)
 </details>
 
-### Autonomous Driving
+### 6.5 Autonomous Driving
 <details>
 <summary>All Methods</summary>
   
