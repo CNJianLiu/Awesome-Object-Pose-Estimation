@@ -15,6 +15,9 @@ Jin Zheng, [Xingyu Liu](https://lliu-xingyu.github.io/), [Hossein Rahmani](https
 This is the official repository of [''Deep Learning-Based Object Pose Estimation: A Comprehensive Survey''](https://arxiv.org/pdf/2405.07801v2). Specifically, we first introduce the [datasets](#datasets) used for object pose estimation. Then, we review the [instance-level](#instance-level), [category-level](#category-level), and [unseen](#unseen) methods, respectively. Finally, we summarize the common [applications](#applications) of this task. The taxonomy of this survey is shown as follows
 <p align="center"> <img src="./resources/taxonomy.png" width="100%"> </p>
 
+A comparison of instance-level, category-level, and unseen methods is shown as follows. Instance-level methods can only estimate the pose of specific object instances on which they are trained. Category-level methods can infer intra-class unseen instances rather than being limited to specific instances in the training data. In contrast, unseen object pose estimation methods have stronger generalization ability and can handle object categories not encountered during training.
+<p align="center"> <img src="./resources/Fig0.jpg" width="100%"> </p>
+
 ## Datasets
 Chronological overview of the datasets for object pose estimation evaluation. Notably, the pink arrows represent the BOP Challenge datasets, which can be used to evaluate both instance-level and unseen object methods. The red references represent the datasets of articulated objects.
 
