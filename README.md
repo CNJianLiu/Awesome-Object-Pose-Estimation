@@ -353,7 +353,6 @@ Research on category-level methods has garnered significant attention due to the
 - GarmentNets: Category-Level Pose Estimation for Garments via Canonical Space Shape Completion [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Chi_GarmentNets_Category-Level_Pose_Estimation_for_Garments_via_Canonical_Space_Shape_ICCV_2021_paper.pdf) [[Code]](https://github.com/real-stanford/garmentnets)
 - Leveraging SE(3) Equivariance for Self-Supervised Category-Level Object Pose Estimation from Point Clouds [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/hash/81e74d678581a3bb7a720b019f4f1a93-Abstract.html) [[Code]](https://github.com/dragonlong/equi-pose)
 #### 2022
-- Self-Supervised Category-Level 6D Object Pose Estimation with Deep Implicit Shape Representation [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/20104) [[Code]](https://github.com/swords123/SSC-6D)
 - GPV-Pose: Category-Level Object Pose Estimation via Geometry-Guided Point-Wise Voting [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Di_GPV-Pose_Category-Level_Object_Pose_Estimation_via_Geometry-Guided_Point-Wise_Voting_CVPR_2022_paper.pdf) [[Code]](https://github.com/lolrudy/GPV_Pose)
 - CPPF: Towards Robust Category-Level 9D Pose Estimation in the Wild [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/You_CPPF_Towards_Robust_Category-Level_9D_Pose_Estimation_in_the_Wild_CVPR_2022_paper.pdf) [[Code]](https://github.com/qq456cvb/CPPF)
 - iCaps: Iterative Category-Level Object Pose and Shape Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9681221)
@@ -383,6 +382,7 @@ Research on category-level methods has garnered significant attention due to the
 - BundleTrack: 6D Pose Tracking for Novel Objects without Instance or Category-Level 3D Models [[Paper]](https://ieeexplore.ieee.org/abstract/document/9635991) [[Code]](https://github.com/wenbowen123/BundleTrack)
 - Sparse Steerable Convolutions: An Efficient Learning of SE(3)-Equivariant Features for Estimation and Tracking of Object Poses in 3D Space [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2021/hash/8c1b6fa97c4288a4514365198566c6fa-Abstract.html) [[Code]](https://github.com/Gorilla-Lab-SCUT/SS-Conv)
 #### 2022
+- Self-Supervised Category-Level 6D Object Pose Estimation with Deep Implicit Shape Representation [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/20104) [[Code]](https://github.com/swords123/SSC-6D)
 - UDA-COPE: Unsupervised Domain Adaptation for Category-Level Object Pose Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_UDA-COPE_Unsupervised_Domain_Adaptation_for_Category-Level_Object_Pose_Estimation_CVPR_2022_paper.pdf)
 - Attention-guided RGB-D Fusion Network for Category-level 6D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9981242)
 #### 2023
