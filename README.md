@@ -187,7 +187,7 @@ Instance-level object pose estimation describes the task of estimating the pose 
 - ParametricNet: 6DoF Pose Estimation Network for Parametric Shapes in Stacked Scenarios [[Paper]](https://ieeexplore.ieee.org/abstract/document/9561181) [[Code]](https://github.com/lvwj19/ParametricNet)
 #### 2022
 - DGECN: A Depth-Guided Edge Convolutional Network for End-to-End 6D Pose Estimation [[Paper]]([https://ieeexplore.ieee.org/abstract/document/9636489](https://openaccess.thecvf.com/content/CVPR2022/papers/Cao_DGECN_A_Depth-Guided_Edge_Convolutional_Network_for_End-to-End_6D_Pose_CVPR_2022_paper.pdf))
-- Spatial feature mapping for 6DoF object pose estimation [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320322003168)
+- Spatial Feature Mapping for 6DoF Object Pose Estimation [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0031320322003168)
 - Vote from the Center: 6 DoF Pose Estimation in RGB-D Images by Radial Keypoint Voting [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20080-9_20) [[Code]](https://github.com/aaronWool/rcvpose)
 - MV6D: Multi-View 6D Pose Estimation on RGB-D Frames Using a Deep Point-wise Voting Network [[Paper]](https://ieeexplore.ieee.org/abstract/document/9982268)
 - Learning to Estimate Object Poses without Real Image Annotations [[Paper]](https://www.ijcai.org/proceedings/2022/0162.pdf)  [[Code]](https://github.com/zju3dv/pvnet-depth-sup)
