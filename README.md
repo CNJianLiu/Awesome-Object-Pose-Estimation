@@ -329,7 +329,8 @@ Research on category-level methods has garnered significant attention due to the
 
 #### 2022
 - SAR-Net: Shape Alignment and Recovery Network for Category-Level 6D Object Pose and Size Estimation [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Lin_SAR-Net_Shape_Alignment_and_Recovery_Network_for_Category-Level_6D_Object_CVPR_2022_paper.pdf) [[Code]](https://hetolin.github.io/SAR-Net/)
-- CenterSnap: Single-Shot Multi-Object 3D Shape Reconstruction and Categorical 6D Pose and Size Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9811799)
+- CenterSnap: Single-Shot Multi-Object 3D Shape Reconstruction and Categorical 6D Pose and Size Estimation [[Project Page](https://zubair-irshad.github.io/projects/CenterSnap.html)] [[Paper]](https://ieeexplore.ieee.org/abstract/document/9811799) [[Code]](https://github.com/zubair-irshad/CenterSnap) 
+- ShAPO: Implicit Representations for Multi-Object Shape Appearance and Pose Optimization [[Project Page](https://zubair-irshad.github.io/projects/ShAPO.html)] [[Paper]](https://arxiv.org/pdf/2207.13691.pdf) [[Code]](https://github.com/zubair-irshad/shapo)
 - SSP-Pose: Symmetry-Aware Shape Prior Deformation for Direct Category-Level Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/9981506)
 - RBP-Pose: Residual Bounding Box Projection for Category-Level Pose Estimation [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-19769-7_38) [[Code]](https://github.com/lolrudy/RBP_Pose)
 - CATRE: Iterative Point Clouds Alignment for Category-Level Object Pose Refinement [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20086-1_29) [[Code]](https://github.com/THU-DA-6D-Pose-Group/CATRE)
@@ -340,6 +341,8 @@ Research on category-level methods has garnered significant attention due to the
 - i2c-net: Using Instance-Level Neural Networks for Monocular Category-Level 6D Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10027166)
 - DTF-Net: Category-Level Pose Estimation and Shape Reconstruction via Deformable Template Field [[Paper]](https://dl.acm.org/doi/abs/10.1145/3581783.3612142)
 #### 2024
+- FSD: Fast Self-Supervised Single RGB-D to Categorical 3D Objects [[Project Page](https://fsd6d.github.io/)] [[Paper]](https://arxiv.org/pdf/2310.12974.pdf) [[Video]](https://youtu.be/3tNrMK-MUQc?si=50FIXFgDQK3xJl44)
+- DiffusionNOCS: Managing Symmetry and Uncertainty in Sim2Real Multi-Modal Category-level Pose Estimation [[Project Page](https://woven-planet.github.io/DiffusionNOCS/)] [[Paper]](https://arxiv.org/abs/2402.12647) [[Code]](https://github.com/woven-planet/DiffusionNOCS)
 - MH6D: Multi-Hypothesis Consistency Learning for Category-Level 6-D Object Pose Estimation [[Paper]](https://ieeexplore.ieee.org/abstract/document/10433529) [[Code]](https://github.com/CNJianLiu/MH6D)
 - GeoReF: Geometric Alignment Across Shape Variation for Category-level Object Pose Refinement [[Paper]](https://arxiv.org/abs/2404.11139) [[Code]](https://lynne-zheng-linfang.github.io/georef.github.io/)
 </details>
