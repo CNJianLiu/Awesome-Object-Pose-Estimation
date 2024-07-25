@@ -4,7 +4,7 @@
 
 [Jian Liu](https://cnjliu.github.io/), [Wei Sun](http://robotics.hnu.edu.cn/info/1071/1265.htm), [Hui Yang](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/), [Zhiwen Zeng](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/), [Chongpei Liu](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/),
 
-[Jin Zheng](http://robotics.hnu.edu.cn/info/1071/1265.htm), [Xingyu Liu](https://lliu-xingyu.github.io/), [Hossein Rahmani](https://sites.google.com/view/rahmaniatlu), [Nicu Sebe](https://scholar.google.com.hk/citations?user=stFCYOAAAAAJ&hl=zh-CN&oi=ao), [Ajmal Mian](https://ajmalsaeed.net/)
+[Jin Zheng](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/), [Xingyu Liu](https://lliu-xingyu.github.io/), [Hossein Rahmani](https://sites.google.com/view/rahmaniatlu), [Nicu Sebe](https://scholar.google.com.hk/citations?user=stFCYOAAAAAJ&hl=zh-CN&oi=ao), [Ajmal Mian](https://ajmalsaeed.net/)
 
 ### [Introduction](#introduction) | [Datasets](#datasets) | [Instance-Level](#instance-level) | [Category-Level](#category-level) | [Unseen](#unseen) | [Applications](#applications)
 
