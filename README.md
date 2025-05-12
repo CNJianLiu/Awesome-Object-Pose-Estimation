@@ -6,7 +6,8 @@
 
 [Jin Zheng](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/), [Xingyu Liu](https://lliu-xingyu.github.io/), [Hossein Rahmani](https://sites.google.com/view/rahmaniatlu), [Nicu Sebe](https://scholar.google.com.hk/citations?user=stFCYOAAAAAJ&hl=zh-CN&oi=ao), [Ajmal Mian](https://ajmalsaeed.net/)
 
-### [1. Introduction](#1-introduction) | [2. Datasets](#2-datasets) | [3. Instance-Level](#3-instance-level) | [4. Category-Level](#4-category-level) | [5. Unseen](#5-unseen) | [6. Applications](#6-applications)
+### [1. Introduction](#1-introduction) | [2. Datasets](#2-datasets)
+### [3. Instance-Level](#3-instance-level) | [4. Category-Level](#4-category-level) | [5. Unseen](#5-unseen) | [6. Applications](#6-applications)
 
 </div>
 
