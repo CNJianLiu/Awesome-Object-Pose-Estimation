@@ -15,7 +15,7 @@ Note: For any missing or recently published papers, feel free to pull a request,
 
 ## 1. Introduction
 
-This is the official repository of [''Deep Learning-Based Object Pose Estimation: A Comprehensive Survey''](https://arxiv.org/pdf/2405.07801v3). Specifically, we first introduce the [datasets](#2-datasets) used for object pose estimation. Then, we review the [instance-level](#3-instance-level), [category-level](#4-category-level), and [unseen](#5-unseen) methods, respectively. Finally, we summarize the common [applications](#6-applications) of this task. The taxonomy of this survey is shown as follows
+This is the official repository of [''Deep Learning-Based Object Pose Estimation: A Comprehensive Survey''](https://arxiv.org/pdf/2405.07801v3) published in <b>*IJCV*</b>. Specifically, we first introduce the [datasets](#2-datasets) used for object pose estimation. Then, we review the [instance-level](#3-instance-level), [category-level](#4-category-level), and [unseen](#5-unseen) methods, respectively. Finally, we summarize the common [applications](#6-applications) of this task. The taxonomy of this survey is shown as follows
 <p align="center"> <img src="./resources/taxonomy.png" width="100%"> </p>
 
 A comparison of instance-level, category-level, and unseen methods is shown as follows. Instance-level methods can only estimate the pose of specific object instances on which they are trained. Category-level methods can infer intra-class unseen instances rather than being limited to specific instances in the training data. In contrast, unseen object pose estimation methods have stronger generalization ability and can handle object categories not encountered during training.
