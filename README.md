@@ -609,11 +609,11 @@ Chronological overview of some representative applications of object pose estima
 ## Citation
 If you find the paper useful, please cite our paper.
 ```latex
-@article{liu2024survey,
+@article{liu2025survey,
   title={Deep Learning-Based Object Pose Estimation: A Comprehensive Survey},
   author={Liu, Jian and Sun, Wei and Yang, Hui and Zeng, Zhiwen and Liu, Chongpei and Zheng, Jin and Liu, Xingyu and Rahmani, Hossein and Sebe, Nicu and Mian, Ajmal},  
-  journal={arXiv preprint arXiv:2405.07801},
-  year={2024}
+  journal={International Journal of Computer Vision},
+  year={2025}
 }
 ```
 
