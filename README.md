@@ -1,6 +1,6 @@
 <div align="center">
 
-# Deep Learning-Based Object Pose Estimation: A Comprehensive Survey
+# [IJCV'25] Deep Learning-Based Object Pose Estimation: A Comprehensive Survey
 
 [Jian Liu](https://cnjliu.github.io/), [Wei Sun](http://robotics.hnu.edu.cn/info/1071/1265.htm), [Hui Yang](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/), [Zhiwen Zeng](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/), [Chongpei Liu](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/),
 
