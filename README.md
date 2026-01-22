@@ -1,8 +1,8 @@
 <div align="center">
 
-# [IJCV'25] Deep Learning-Based Object Pose Estimation: A Comprehensive Survey
+# [IJCV'26] Deep Learning-Based Object Pose Estimation: A Comprehensive Survey
 
-[Jian Liu](https://cnjliu.github.io/), [Wei Sun](http://robotics.hnu.edu.cn/info/1071/1265.htm), [Hui Yang](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/), [Zhiwen Zeng](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/), [Chongpei Liu](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/),
+[Jian Liu](https://cnjliu.github.io/), [Wei Sun](http://robotics.hnu.edu.cn/info/1071/1265.htm), [Hui Yang](https://scholar.google.com/citations?user=rhQSwuoAAAAJ&hl=zh-CN), [Zhiwen Zeng](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/), [Chongpei Liu](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/),
 
 [Jin Zheng](https://github.com/CNJianLiu/Awesome-Object-Pose-Estimation/), [Xingyu Liu](https://lliu-xingyu.github.io/), [Hossein Rahmani](https://sites.google.com/view/rahmaniatlu), [Nicu Sebe](https://scholar.google.com.hk/citations?user=stFCYOAAAAAJ&hl=zh-CN&oi=ao), [Ajmal Mian](https://ajmalsaeed.net/)
 
@@ -15,7 +15,7 @@ Note: For any missing or recently published papers, feel free to pull a request,
 
 ## 1. Introduction
 
-This is the official repository of paper [''Deep Learning-Based Object Pose Estimation: A Comprehensive Survey''](https://arxiv.org/pdf/2405.07801v3) published in <b>*IJCV*</b>. Specifically, we first introduce the [datasets](#2-datasets) used for object pose estimation. Then, we review the [instance-level](#3-instance-level), [category-level](#4-category-level), and [unseen](#5-unseen) methods, respectively. Finally, we summarize the common [applications](#6-applications) of this task. The taxonomy of this survey is shown as follows
+This is the official repository of paper [''Deep Learning-Based Object Pose Estimation: A Comprehensive Survey''](https://link.springer.com/article/10.1007/s11263-025-02646-6) published in <b>*IJCV*</b>. Specifically, we first introduce the [datasets](#2-datasets) used for object pose estimation. Then, we review the [instance-level](#3-instance-level), [category-level](#4-category-level), and [unseen](#5-unseen) methods, respectively. Finally, we summarize the common [applications](#6-applications) of this task. The taxonomy of this survey is shown as follows
 <p align="center"> <img src="./resources/taxonomy.png" width="100%"> </p>
 
 A comparison of instance-level, category-level, and unseen methods is shown as follows. Instance-level methods can only estimate the pose of specific object instances on which they are trained. Category-level methods can infer intra-class unseen instances rather than being limited to specific instances in the training data. In contrast, unseen object pose estimation methods have stronger generalization ability and can handle object categories not encountered during training.
@@ -609,11 +609,15 @@ Chronological overview of some representative applications of object pose estima
 ## Citation
 If you find the paper useful, please cite our paper.
 ```latex
-@article{liu2025survey,
+@article{liu2026survey,
   title={Deep Learning-Based Object Pose Estimation: A Comprehensive Survey},
   author={Liu, Jian and Sun, Wei and Yang, Hui and Zeng, Zhiwen and Liu, Chongpei and Zheng, Jin and Liu, Xingyu and Rahmani, Hossein and Sebe, Nicu and Mian, Ajmal},  
   journal={International Journal of Computer Vision},
-  year={2025}
+  year={2026},
+  volume={134},
+  number={81},
+  pages={1-45},
+  doi={https://doi.org/10.1007/s11263-025-02646-6}
 }
 ```
 
